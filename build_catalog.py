@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
 """Refresh the NASA A–Z mission list into a GitHub Pages-friendly JSON file."""
 
+from __future__ import annotations
+
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date
+from html import unescape
 from html.parser import HTMLParser
-from urllib.request import Request, urlopen
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import json
 from pathlib import Path
+from urllib.request import Request, urlopen
+import json
 import re
 
 
 SOURCE_URL = "https://www.nasa.gov/a-to-z-of-nasa-missions/"
-OUTPUT = Path(__file__).resolve().parent / "missions.json"
+ROOT = Path(__file__).resolve().parent
+OUTPUT = ROOT / "missions.json"
+OVERRIDES = ROOT / "mission_overrides.json"
+USER_AGENT = "NASA-Space-Explorer/1.0 (educational catalog index)"
 
 
 class MissionLinks(HTMLParser):
@@ -44,55 +51,112 @@ class MissionLinks(HTMLParser):
         self.current_text = []
 
 
-class VisibleText(HTMLParser):
-    """Extract readable text so we can find NASA's labeled Launch field."""
-
-    BLOCKS = {"address", "article", "br", "dd", "div", "dt", "h1", "h2", "h3", "li", "p", "section", "td", "th", "tr"}
-
-    def __init__(self) -> None:
-        super().__init__()
-        self.parts: list[str] = []
-
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag in self.BLOCKS:
-            self.parts.append("\n")
-
-    def handle_data(self, data: str) -> None:
-        self.parts.append(data)
-
-    def handle_endtag(self, tag: str) -> None:
-        if tag in self.BLOCKS:
-            self.parts.append("\n")
-
-
-LAUNCH_PATTERN = re.compile(
-    r"\bLaunch(?:\s{0,3}Date(?:\s{0,3}and\s{0,3}Time)?)?\s{0,4}[:\-]?\s{0,40}"
-    r"((?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
-    r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|"
-    r"Dec(?:ember)?)\.?\s+\d{1,2},?\s+\d{4}|\d{4})\b",
-    re.IGNORECASE,
+# NASA mission pages show a facts block of label/value pairs (Type, Launch, Target…).
+FACT_PAIR = re.compile(
+    r'<p class="label[^"]*"[^>]*>([^<]*)</p>\s*</div>\s*<div class="p-lg[^"]*"[^>]*>(.*?)</div>',
+    re.S,
 )
+MONTHS = {name: number for number, name in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split(), 1)}
+# NASA label → how the explorer labels that date. Order matters: first matching fact wins.
+DATE_LABELS = [
+    (r"^scheduled to launch", "Scheduled launch"),
+    (r"^first launch", "First launch"),
+    (r"^launch(ed)?\b(?!\s*vehicle)", "Launch"),
+    (r"^(airborne campaigns?|campaign dates|dates)$", "Campaigns"),
+    (r"^years active$", "Active"),
+    (r"^first flight$", "First flight"),
+    (r"^start$", "Start"),
+    (r"^dedicated$", "Dedicated"),
+]
+PLANNED = re.compile(r"\b(TBD|NET|no earlier than|planned|mid-\d{4}s|\d{4}[’']?s)\b", re.I)
 
 
-def fetch_launch_date(mission: dict[str, str]) -> tuple[str, str | None]:
-    """Read the launch label from one NASA page; return the source URL and date."""
-    url = mission["source"]
+def clean(fragment: str) -> str:
+    return " ".join(unescape(re.sub(r"<[^>]+>", " ", fragment)).split())
+
+
+def page_facts(html: str) -> dict[str, str]:
+    return {clean(label): clean(value) for label, value in FACT_PAIR.findall(html) if clean(label)}
+
+
+def fact(facts: dict[str, str], pattern: str) -> str:
+    return next((value for label, value in facts.items() if re.match(pattern, label, re.I)), "")
+
+
+def to_iso(text: str) -> str | None:
+    """Return the first date in NASA's text as YYYY-MM-DD, YYYY-MM or YYYY."""
+    match = re.search(r"([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s*(\d{4})", text)
+    if match and match.group(1)[:3].lower() in MONTHS:
+        return f"{match.group(3)}-{MONTHS[match.group(1)[:3].lower()]:02d}-{int(match.group(2)):02d}"
+    match = re.search(r"([A-Za-z]{3,9})\.?\s+(\d{4})", text)
+    if match and match.group(1)[:3].lower() in MONTHS:
+        return f"{match.group(2)}-{MONTHS[match.group(1)[:3].lower()]:02d}"
+    match = re.search(r"\b(19[5-9]\d|20[0-4]\d)", text)
+    return match.group(1) if match else None
+
+
+def launch_fields(facts: dict[str, str]) -> dict[str, object]:
+    for pattern, label in DATE_LABELS:
+        for key, value in facts.items():
+            if re.match(pattern, key.strip(), re.I):
+                iso = to_iso(value)
+                planned = bool(PLANNED.search(value)) or bool(iso and iso > date.today().isoformat())
+                if not iso and not planned:
+                    return {}
+                if " / " in key:
+                    label = key.strip().title()  # "Launch / Landing" values hold both dates
+                if planned:
+                    label = "Planned launch"
+                elif label == "Launch" and re.search(r"\d{4}\s*[-–]\s*(\d{4}|present)", value, re.I):
+                    label = "Active"  # e.g. ground telescopes list "2003-2012" as their launch
+                # A plain single date is formatted by the browser; keep NASA's wording for anything else.
+                plain = iso and re.fullmatch(r"[A-Za-z]{3,9}\.?\s+\d{1,2},?\s*\d{4}", value.strip())
+                return {"launchDate": iso, "launchText": None if plain else value, "dateLabel": label, "planned": planned}
+    return {}
+
+
+# Route families for the schematic trajectory drawing. NASA's Target/Location field is checked
+# first, then the mission type, then the name; mission_overrides.json corrects the leftovers.
+ROUTE_RULES = [
+    (r"airborne|balloon|aerial|campaign|aeronautic|supersonic", "airborne"),
+    (r"analog|ground-based|mauna kea", "ground"),
+    (r"international space station|\biss\b|space station|expedition", "station"),
+    (r"mercury", "mercury"),
+    (r"venus", "venus"),
+    (r"europa|jupiter", "jupiter"),
+    (r"saturn|titan", "saturn"),
+    (r"uranus|neptune|pluto|kuiper belt|interstellar|outer edge", "outer"),
+    (r"comet", "comet"),
+    (r"asteroid|didymos|bennu|ryugu|itokawa|eros\b|psyche|vesta|ceres|braille", "asteroid"),
+    (r"phobos|deimos|mars", "mars"),
+    (r"moon|lunar|apollo|artemis|surveyor|ranger", "moon"),
+    (r"^sun$|heliocentric", "sun"),
+    (r"earth|orbit|shuttle|sts-|landsat|weather|ocean|atmospher|climate|ozone|satellite|universe|exoplanet|milky way|telescope|observatory|x-ray|gamma|cosmic|astrophysics|solar system|space environment", "earth"),
+]
+
+
+def classify_route(name: str, facts: dict[str, str]) -> str | None:
+    target = fact(facts, r"^(target|destinations?|location)$")
+    kind = fact(facts, r"^(mission )?type$")
+    for text in (kind if re.search(r"airborne|balloon|aerial|aeronautic|analog", kind, re.I) else "", target, f"{kind} {target}", f"{name} {kind} {target}"):
+        for pattern, route in ROUTE_RULES:
+            if text and re.search(pattern, text, re.I):
+                return route
+    return None
+
+
+def fetch_page(mission: dict[str, str]) -> dict[str, str]:
     try:
-        request = Request(url, headers={"User-Agent": "NASA-Space-Explorer/1.0 (educational catalog index)"})
-        with urlopen(request, timeout=18) as response:
-            html = response.read().decode("utf-8", errors="replace")
-        text_parser = VisibleText()
-        text_parser.feed(html)
-        visible_text = " ".join(" ".join(text_parser.parts).split())
-        match = LAUNCH_PATTERN.search(visible_text)
-        return url, match.group(1) if match else None
+        request = Request(mission["source"], headers={"User-Agent": USER_AGENT})
+        with urlopen(request, timeout=30) as response:
+            return page_facts(response.read().decode("utf-8", errors="replace"))
     except Exception as error:  # a missing/temporarily unavailable page shouldn't block catalog refresh
-        print(f"Could not read launch date for {mission['name']}: {error}")
-        return url, None
+        print(f"Could not read facts for {mission['name']}: {error}")
+        return {}
 
 
 def main() -> None:
-    request = Request(SOURCE_URL, headers={"User-Agent": "NASA-Space-Explorer/1.0 (educational project)"})
+    request = Request(SOURCE_URL, headers={"User-Agent": USER_AGENT})
     with urlopen(request, timeout=30) as response:
         html = response.read().decode("utf-8", errors="replace")
     parser = MissionLinks()
@@ -100,31 +164,50 @@ def main() -> None:
     unique: dict[str, dict[str, str]] = {}
     for mission in parser.items:
         unique.setdefault(mission["source"], mission)
-    missions = sorted(unique.values(), key=lambda mission: mission["name"].casefold())
+    missions: list[dict[str, object]] = sorted(unique.values(), key=lambda mission: mission["name"].casefold())
     if not missions:
         raise SystemExit("NASA mission list was empty; existing missions.json was left unchanged.")
 
-    # NASA's A–Z index itself contains no dates. Many linked mission pages have a
-    # labeled Launch field, so collect those pages in parallel at a restrained rate.
-    print(f"Looking up launch dates on {len(missions)} linked NASA mission pages…")
-    dates_by_source: dict[str, str] = {}
+    print(f"Reading the facts block on {len(missions)} linked NASA mission pages…")
     with ThreadPoolExecutor(max_workers=5) as executor:
-        futures = [executor.submit(fetch_launch_date, mission) for mission in missions]
-        for future in as_completed(futures):
-            url, launch_date = future.result()
-            if launch_date:
-                dates_by_source[url] = launch_date
-    for mission in missions:
-        launch_date = dates_by_source.get(mission["source"])
-        if not launch_date:
-            continue
-        year_match = re.search(r"(19|20)\d{2}", launch_date)
-        if year_match:
-            mission["launch_date"] = launch_date
-            mission["year"] = int(year_match.group(0))
+        all_facts = list(executor.map(fetch_page, missions))
 
-    OUTPUT.write_text(json.dumps({"source": SOURCE_URL, "missions": missions}, indent=2) + "\n", encoding="utf-8")
-    print(f"Saved {len(missions)} NASA A–Z entries, including {len(dates_by_source)} linked launch dates, to {OUTPUT}")
+    overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
+    route_overrides = {name: route for route, names in overrides["routes"].items() for name in names}
+    known = {mission["name"] for mission in missions}
+    for name in sorted((set(overrides["launch"]) | set(route_overrides)) - known):
+        print(f"Warning: override for {name!r} matches no catalog entry")
+
+    for mission, facts in zip(missions, all_facts):
+        name = mission["name"]
+        kind = fact(facts, r"^(mission )?type$")
+        target = fact(facts, r"^(target|destinations?|location)$")
+        if kind:
+            mission["type"] = kind
+        if target:
+            mission["target"] = target
+        mission.update(launch_fields(facts))
+        if name in overrides["launch"]:
+            correction = overrides["launch"][name]
+            mission.update(correction)
+            if "launchText" not in correction and correction.get("launchDate"):
+                mission["launchText"] = None  # the browser formats launchDate itself
+            if correction.get("planned") and "dateLabel" not in correction:
+                mission["dateLabel"] = "Planned launch"
+            mission.setdefault("dateLabel", "Launch")
+        launch_date = mission.get("launchDate")
+        if launch_date:
+            mission["year"] = int(str(launch_date)[:4])
+        route = route_overrides.get(name) or classify_route(name, facts)
+        if route:
+            mission["routeType"] = route
+        for key in [key for key, value in mission.items() if value in (None, False, "")]:
+            del mission[key]
+
+    OUTPUT.write_text(json.dumps({"source": SOURCE_URL, "missions": missions}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    dated = sum(1 for mission in missions if mission.get("year"))
+    routed = sum(1 for mission in missions if mission.get("routeType"))
+    print(f"Saved {len(missions)} NASA A–Z entries ({dated} with dates, {routed} with routes) to {OUTPUT}")
 
 
 if __name__ == "__main__":
