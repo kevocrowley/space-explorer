@@ -51,6 +51,52 @@ const $ = (selector) => document.querySelector(selector);
 const normalize = (value) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
 const safeText = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 
+// Match move-explorer: don't load Google Analytics before consent or on local previews.
+const GA_ID = "G-GK8YG8H802";
+const ANALYTICS_HOST = location.hostname.endsWith("github.io");
+let gaLoaded = false;
+
+function getAnalyticsConsent() {
+  try { return localStorage.getItem("space-explorer-ga-consent"); } catch (error) { return null; }
+}
+
+function setAnalyticsConsent(value) {
+  try { localStorage.setItem("space-explorer-ga-consent", value); } catch (error) { /* storage may be disabled */ }
+}
+
+function loadAnalytics() {
+  if (gaLoaded || !ANALYTICS_HOST) return;
+  gaLoaded = true;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag("js", new Date());
+  window.gtag("config", GA_ID);
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+  document.head.appendChild(script);
+}
+
+function setupAnalyticsConsent() {
+  const banner = $("#analytics-consent");
+  const choose = (value) => {
+    setAnalyticsConsent(value);
+    banner.hidden = true;
+    if (value === "granted") loadAnalytics();
+  };
+  $("#consent-accept").addEventListener("click", () => choose("granted"));
+  $("#consent-decline").addEventListener("click", () => choose("denied"));
+  $("#cookie-settings").addEventListener("click", (event) => {
+    event.preventDefault();
+    banner.hidden = false;
+  });
+  const saved = getAnalyticsConsent();
+  if (saved === "granted") loadAnalytics();
+  else if (!saved && ANALYTICS_HOST) banner.hidden = false;
+}
+
+setupAnalyticsConsent();
+
 function getMissionData(name) {
   const exact = CURATED.find((mission) => normalize(mission.name) === normalize(name));
   if (exact) return {...exact, ...VERIFIED_DETAILS[exact.name]};

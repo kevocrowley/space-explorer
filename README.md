@@ -35,6 +35,7 @@ GitHub Pages serves static websites; it does not run Python applications or `app
 - [NASA A–Z missions](https://www.nasa.gov/a-to-z-of-nasa-missions/) — broad catalog index.
 - Each curated mission links to its NASA mission page. The launch-origin field has its own NASA source link.
 - Mission periods, launch vehicles, and crew status are currently populated for selected, researched missions. Other catalog entries show unavailable/not verified rather than inferred values.
+- Google Analytics uses measurement ID `G-GK8YG8H802`, matching the `move-explorer` site, and is loaded only on GitHub Pages after visitor consent. The footer provides a way to reopen cookie settings.
 - Trajectories are simplified, labeled schematics and are not navigation/ephemeris data.
 - NASA's catalog includes more than spacecraft missions (for example experiments, programs, aircraft and expeditions). Entries without individually checked launch details show those fields as unavailable; do not infer that every catalog item launched from Earth.
 
