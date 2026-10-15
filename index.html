@@ -56,8 +56,8 @@
         <div class="explorer-layout">
           <aside class="sidebar">
             <label class="search-box"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.8"/><path d="m13 13 4 4"/></svg><input id="search" type="search" placeholder="Search missions…" autocomplete="off"><kbd>⌘ K</kbd></label>
-            <div class="filter-group"><span class="filter-title">BROWSE BY DECADE</span><div class="filter-options decade-options" id="decade-filters"><button class="filter-chip active" data-decade="all">All decades</button><button class="filter-chip" data-decade="1950">1950s</button><button class="filter-chip" data-decade="1960">1960s</button><button class="filter-chip" data-decade="1970">1970s</button><button class="filter-chip" data-decade="1980">1980s</button><button class="filter-chip" data-decade="1990">1990s</button><button class="filter-chip" data-decade="2000">2000s</button><button class="filter-chip" data-decade="2010">2010s</button><button class="filter-chip" data-decade="2020">2020s</button><button class="filter-chip" data-decade="unknown">Date not listed</button></div></div>
-            <div class="sidebar-foot"><span class="pin-icon">⌖</span><span>Launch site shown when published by NASA.<br>Routes are simplified visual summaries.</span></div>
+            <div class="filter-group"><span class="filter-title">BROWSE BY DECADE</span><div class="filter-options decade-options" id="decade-filters"></div></div><div class="filter-group"><span class="filter-title">MISSION STATUS</span><div class="filter-options" id="status-filters"></div></div>
+            <div class="sidebar-foot"><span class="pin-icon">⌖</span><span>Launch details from NASA mission pages, with Wikidata filling gaps (marked).<br>Journeys are simplified illustrations.</span></div>
           </aside>
 
           <div class="mission-column"><div class="results-head"><span id="results-label">ALL MISSIONS</span><span id="results-count">—</span></div><div class="mission-list" id="mission-list" aria-live="polite"></div><button class="load-more" id="load-more" hidden>LOAD MORE MISSIONS <span>↓</span></button></div>
@@ -65,7 +65,7 @@
           <aside class="detail-panel" id="detail-panel" aria-live="polite">
             <div class="detail-top"><span class="eyebrow"><span>MISSION</span> / SELECTED</span><span class="detail-index" id="detail-index">01</span></div>
             <div class="detail-content" id="detail-content"><div class="empty-detail"><div class="empty-orbit"><span></span><i></i></div><h3>Pick a mission<br>to chart its course.</h3><p>Explore the catalog to see a mission’s destination, flight path, and launch origin.</p><span class="empty-hint">← SELECT A MISSION</span></div></div>
-            <div class="detail-footer"><span>ROUTE VISUALIZATION</span><span>SCHEMATIC · NOT TO SCALE</span></div>
+            <div class="detail-footer"><span>MISSION JOURNEY</span><span>ILLUSTRATIVE · NOT TO SCALE</span></div>
           </aside>
         </div>
       </section>
