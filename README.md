@@ -17,7 +17,13 @@ Open <http://127.0.0.1:8000>. Stop the server with `Ctrl+C`.
 python3 build_catalog.py
 ```
 
-This downloads the NASA A–Z mission list, reads the facts block (Type / Launch / Target) on each linked NASA mission page, applies the hand-checked corrections in `mission_overrides.json`, and writes `missions.json`. Each entry gets a normalized `launchDate`, a `dateLabel` (Launch, Campaigns, Planned launch…), and a `routeType` used for the schematic trajectory. The script prints a warning if an override no longer matches a catalog entry. Python 3.9+ is supported; everything uses only the standard library.
+The build combines three sources and writes `missions.json`:
+
+1. **NASA A–Z missions list** plus the facts block on each mission page (type, launch, target, crew, Shuttle orbiter, landing/splashdown, duration).
+2. **[NASA Science missions](https://science.nasa.gov/science-missions/)** via the site's own JSON endpoint: mission status (Active / Past / Future), program, a short summary and an image. Science missions missing from the A–Z list are added, and dead A–Z links are swapped for the matching science page.
+3. **Wikidata**, only where its launch date matches ours to within a day: launch vehicle, launch site and crew for missions NASA's pages don't cover. These values are marked "via Wikidata" in the detail panel. Non-human crew (e.g. Artemis I's mannequin) is listed separately, not as crew.
+
+Hand-checked corrections in `mission_overrides.json` are applied last; the script warns if an override no longer matches a catalog entry. A full run makes a few thousand requests and takes roughly 10 minutes. Python 3.9+ is supported; everything uses only the standard library.
 
 ## Publish with GitHub Pages
 
@@ -37,7 +43,7 @@ GitHub Pages serves static websites; it does not run Python applications or `app
 - NASA's A–Z index does not contain dates. Dates come from each mission page's facts block. Where NASA's page is wrong or missing a date, `mission_overrides.json` holds the correction with a `dateSource` link (Wikidata, ESA, DLR or NASA NTRS) and a short note shown in the detail panel. Future or TBD launches are grouped under **Upcoming**; entries with no applicable date (for example aeronautics research) are under **Date not listed**.
 - Routes (`routeType`) are assigned from NASA's Target/Type fields, with `mission_overrides.json` covering missions those fields don't describe (Lagrange points, heliocentric orbits, airborne campaigns, ground facilities).
 - Google Analytics uses measurement ID `G-GK8YG8H802`, matching the `move-explorer` site, and is loaded only on GitHub Pages after visitor consent. The footer provides a way to reopen cookie settings.
-- Trajectories are simplified, labeled schematics and are not navigation/ephemeris data.
+- Each mission's journey diagram (Earth → stops → destination) is an illustration built from its route type, curated route string and NASA milestones; it is not navigation/ephemeris data.
 - NASA's catalog includes more than spacecraft missions (for example experiments, programs, aircraft and expeditions). Entries without individually checked launch details show those fields as unavailable; do not infer that every catalog item launched from Earth.
 
 NASA content and links remain the property of their respective owners. This is an independent educational project and is not an official NASA product.
