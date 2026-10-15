@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111d">
+  <meta name="description" content="Explore NASA missions, their destinations, routes through space, and documented launch sites.">
+  <title>NASA Space Explorer — Mission trajectories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Space Explorer home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="4"/><ellipse cx="16" cy="16" rx="14" ry="6" transform="rotate(-32 16 16)"/><path d="m5 26 5-7M23 13l4-6"/></svg></span>
+        <span>SPACE<span class="brand-light">EXPLORER</span></span>
+      </a>
+      <div class="topbar-right"><span class="live-dot"></span><span>NASA MISSION INDEX</span><span class="topbar-divider"></span><a href="https://www.nasa.gov/a-to-z-of-nasa-missions/" target="_blank" rel="noreferrer">DATA SOURCES ↗</a></div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>01</span> / THE JOURNEY OUTWARD</p>
+          <h1>Every mission<br>has a <em>trajectory.</em></h1>
+          <p class="hero-description">From launch pad to the edge of the solar system. Explore NASA missions, the paths they travel, and the places on Earth where their journeys began.</p>
+          <a class="scroll-cue" href="#explore"><span class="scroll-icon">↓</span> SCROLL TO EXPLORE</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-label label-earth"><i></i> EARTH</div><div class="art-label label-moon"><i></i> LUNAR ORBIT</div><div class="art-label label-mars"><i></i> MARS</div>
+          <svg class="hero-orbits" viewBox="0 0 680 510" fill="none">
+            <defs><radialGradient id="planet" cx="38%" cy="32%"><stop stop-color="#8bd7ec"/><stop offset=".48" stop-color="#2a86a4"/><stop offset="1" stop-color="#123950"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+            <ellipse cx="369" cy="273" rx="194" ry="92" transform="rotate(-31 369 273)" stroke="#44c9d6" stroke-opacity=".45" stroke-dasharray="2 7"/>
+            <ellipse cx="369" cy="273" rx="272" ry="146" transform="rotate(27 369 273)" stroke="#6b84da" stroke-opacity=".3" stroke-dasharray="2 9"/>
+            <ellipse cx="369" cy="273" rx="321" ry="206" transform="rotate(-7 369 273)" stroke="#384a70" stroke-opacity=".55" stroke-dasharray="1 8"/>
+            <circle cx="369" cy="273" r="63" fill="url(#planet)"/><circle cx="369" cy="273" r="73" stroke="#4acbe0" stroke-opacity=".16"/>
+            <path d="M323 246c24-12 36-13 54-8 12 4 17 2 31-6l17 14-13 11 8 18-18 7-9 21-22-5-20-18-23-3-11-18 6-13Z" fill="#8ac3ad" opacity=".62"/><path d="m382 323 22-12 17 7-5 14-20 9-17-7z" fill="#8ac3ad" opacity=".48"/>
+            <circle cx="519" cy="177" r="12" fill="#cbd5ef"/><circle cx="519" cy="177" r="18" stroke="#cbd5ef" stroke-opacity=".18"/>
+            <circle cx="130" cy="144" r="7" fill="#e78c67" filter="url(#glow)"/><circle cx="130" cy="144" r="3" fill="#ffd0a5"/>
+            <circle cx="243" cy="408" r="4" fill="#e5c891"/><path d="M134 148c82 42 143 59 207 87 68 29 116-2 174-54" stroke="#fff" stroke-opacity=".72" stroke-width="1.5" stroke-dasharray="3 7"/>
+            <path d="M145 148c-22 42-37 74-34 105" stroke="#46d2df" stroke-width="1.5" stroke-opacity=".72"/>
+            <circle cx="111" cy="253" r="3" fill="#53d4db"/><circle cx="280" cy="236" r="2" fill="#fff"/><circle cx="210" cy="112" r="1.5" fill="#fff"/><circle cx="570" cy="266" r="1.5" fill="#fff"/><circle cx="450" cy="80" r="2" fill="#fff"/><circle cx="555" cy="384" r="2" fill="#fff"/><circle cx="294" cy="353" r="1.5" fill="#fff"/>
+          </svg>
+          <span class="art-coordinate">28° 34′ N &nbsp; 80° 39′ W<br>EARTH · SOL SYSTEM</span>
+        </div>
+        <div class="hero-index"><span>EXPLORATION LOG</span><strong>1958 — ∞</strong><span>THE MISSION ARCHIVE</span></div>
+      </section>
+
+      <section class="stats-row" aria-label="Collection statistics"><div><b id="mission-count">—</b><span>MISSIONS IN INDEX</span></div><div><b id="launch-count">—</b><span>WITH LAUNCH ORIGIN</span></div><div><b>1958</b><span>NASA ESTABLISHED</span></div><div class="stats-note"><span>DATA FROM NASA’S PUBLIC MISSION CATALOG</span><span class="stat-status"><i></i> INDEX LOADED</span></div></section>
+
+      <section class="explore-section" id="explore">
+        <div class="section-heading"><div><p class="eyebrow"><span>02</span> / MISSION ARCHIVE</p><h2>Choose your <em>destination.</em></h2></div><div class="section-aside">A living index of NASA’s missions.<br>Select a mission to trace its journey.</div></div>
+        <div class="explorer-layout">
+          <aside class="sidebar">
+            <label class="search-box"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.8"/><path d="m13 13 4 4"/></svg><input id="search" type="search" placeholder="Search missions…" autocomplete="off"><kbd>⌘ K</kbd></label>
+            <div class="filter-group"><span class="filter-title">DESTINATION</span><div class="filter-options" id="target-filters"><button class="filter-chip active" data-target="all">All missions</button><button class="filter-chip" data-target="Moon">Moon</button><button class="filter-chip" data-target="Mars">Mars</button><button class="filter-chip" data-target="Earth">Earth orbit</button><button class="filter-chip" data-target="Jupiter">Outer solar system</button><button class="filter-chip" data-target="Other">Other destinations</button></div></div>
+            <div class="filter-group year-filter"><label class="filter-title" for="year-filter">LAUNCH DECADE <span id="year-value">All</span></label><input id="year-filter" type="range" min="0" max="7" value="0"><div class="range-labels"><span>1950s</span><span>2020s</span></div></div>
+            <div class="sidebar-foot"><span class="pin-icon">⌖</span><span>Launch site shown when published by NASA.<br>Routes are simplified visual summaries.</span></div>
+          </aside>
+
+          <div class="mission-column"><div class="results-head"><span id="results-label">ALL MISSIONS</span><span id="results-count">—</span></div><div class="mission-list" id="mission-list" aria-live="polite"></div><button class="load-more" id="load-more" hidden>LOAD MORE MISSIONS <span>↓</span></button></div>
+
+          <aside class="detail-panel" id="detail-panel" aria-live="polite">
+            <div class="detail-top"><span class="eyebrow"><span>MISSION</span> / SELECTED</span><span class="detail-index" id="detail-index">01</span></div>
+            <div class="detail-content" id="detail-content"><div class="empty-detail"><div class="empty-orbit"><span></span><i></i></div><h3>Pick a mission<br>to chart its course.</h3><p>Explore the catalog to see a mission’s destination, flight path, and launch origin.</p><span class="empty-hint">← SELECT A MISSION</span></div></div>
+            <div class="detail-footer"><span>ROUTE VISUALIZATION</span><span>SCHEMATIC · NOT TO SCALE</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="source-section"><div><p class="eyebrow"><span>03</span> / ABOUT THIS INDEX</p><h2>Grounded in <em>real missions.</em></h2></div><p>NASA’s A–Z mission catalog is the starting point for this explorer. Individual NASA mission pages are linked as the source for mission and launch-site details. The displayed paths are simplified illustrations—not precision ephemerides. Missions without a verified launch record are shown as “not listed” rather than guessed.</p><a href="https://www.nasa.gov/a-to-z-of-nasa-missions/" target="_blank" rel="noreferrer">NASA A–Z MISSION CATALOG <span>↗</span></a></section>
+      <footer><a class="brand footer-brand" href="#top"><span class="brand-mark"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="4"/><ellipse cx="16" cy="16" rx="14" ry="6" transform="rotate(-32 16 16)"/><path d="m5 26 5-7M23 13l4-6"/></svg></span><span>SPACE<span class="brand-light">EXPLORER</span></span></a><span>AN INDEPENDENT EXPLORATION OF NASA’S MISSION ARCHIVE</span><a href="https://github.com/kevocrowley" target="_blank" rel="noreferrer">BUILT BY KEVOCROWLEY ↗</a></footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
