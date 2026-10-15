@@ -115,7 +115,7 @@ function classifyTarget(name) {
 
 function combinedMissions(catalog) {
   const map = new Map();
-  (catalog || []).forEach((item) => map.set(normalize(item.name), {name:item.name, source:item.source, target:classifyTarget(item.name)}));
+  (catalog || []).forEach((item) => map.set(normalize(item.name), {...item, name:item.name, source:item.source, target:classifyTarget(item.name)}));
   CURATED.forEach((mission) => {
     const key = normalize(mission.name);
     const existing = map.get(key);
@@ -134,6 +134,29 @@ function currentMissions() {
     const matchesDecade = state.decade === "all" || (state.decade === "unknown" ? decade === null : decade === Number(state.decade));
     return matchesQuery && matchesDecade;
   });
+}
+
+function renderDecadeFilters() {
+  const decadeCounts = new Map();
+  state.missions.forEach((mission) => {
+    const year = Number(mission.year);
+    if (year) {
+      const decade = Math.floor(year / 10) * 10;
+      decadeCounts.set(decade, (decadeCounts.get(decade) || 0) + 1);
+    }
+  });
+  const decadeButtons = [...decadeCounts.keys()].sort((a, b) => a - b).map((decade) =>
+    `<button class="filter-chip${state.decade === String(decade) ? " active" : ""}" data-decade="${decade}">${decade}s <span class="decade-count">${decadeCounts.get(decade)}</span></button>`
+  ).join("");
+  const unknownCount = state.missions.length - [...decadeCounts.values()].reduce((sum, count) => sum + count, 0);
+  const unknownButton = unknownCount ? `<button class="filter-chip${state.decade === "unknown" ? " active" : ""}" data-decade="unknown">Date not listed <span class="decade-count">${unknownCount}</span></button>` : "";
+  $("#decade-filters").innerHTML = `<button class="filter-chip${state.decade === "all" ? " active" : ""}" data-decade="all">All decades <span class="decade-count">${state.missions.length}</span></button>${decadeButtons}${unknownButton}`;
+  document.querySelectorAll("#decade-filters .filter-chip").forEach((button) => button.addEventListener("click", () => {
+    state.decade = button.dataset.decade;
+    state.visible = 60;
+    document.querySelectorAll("#decade-filters .filter-chip").forEach((chip) => chip.classList.toggle("active", chip === button));
+    renderList();
+  }));
 }
 
 function renderList() {
@@ -170,10 +193,10 @@ function selectMission(name) {
   renderList();
   const data = state.selected;
   const origin = data.origin ? `<a href="${safeText(data.launchSource || data.source)}" target="_blank" rel="noreferrer">${safeText(data.origin)}</a>` : "Not listed in this explorer";
-  const launchDate = data.launch ? new Date(`${data.launch}T12:00:00Z`).toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric", timeZone:"UTC"}) : "Not available";
+  const launchDate = data.launch ? new Date(`${data.launch}T12:00:00Z`).toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric", timeZone:"UTC"}) : data.launch_date || "Not available";
   const source = data.source ? `<a href="${safeText(data.source)}" target="_blank" rel="noreferrer">NASA mission page ↗</a>` : `<a href="https://www.nasa.gov/a-to-z-of-nasa-missions/" target="_blank" rel="noreferrer">NASA A–Z catalog ↗</a>`;
   const target = data.target || classifyTarget(data.name);
-  const missionPeriod = data.period || (data.launch ? data.status === "Active" || data.status === "En route" ? `Launched ${launchDate} · ongoing` : `Launched ${launchDate} · completed` : "Not listed in this explorer");
+  const missionPeriod = data.period || (data.launch || data.launch_date ? data.status === "Active" || data.status === "En route" ? `Launched ${launchDate} · ongoing` : data.status ? `Launched ${launchDate} · ${data.status.toLowerCase()}` : `Launch listed ${launchDate} · mission dates not summarized` : "Not listed in this explorer");
   const vehicle = data.vehicle || "Not listed in this explorer";
   const crewed = data.crewNote || (data.crewed === true ? "Crewed mission" : data.crewed === false ? "Uncrewed mission" : "Not verified");
   $("#detail-index").textContent = String(state.missions.findIndex((item) => item.name === name) + 1).padStart(2, "0");
@@ -183,7 +206,7 @@ function selectMission(name) {
 function resetFilters() {
   state.decade = "all"; state.visible = 60;
   $("#search").value = "";
-  document.querySelectorAll(".filter-chip").forEach((button) => button.classList.toggle("active", button.dataset.decade === "all"));
+  document.querySelectorAll("#decade-filters .filter-chip").forEach((button) => button.classList.toggle("active", button.dataset.decade === "all"));
   renderList();
 }
 
@@ -196,13 +219,9 @@ async function init() {
     console.warn("NASA catalog list could not be loaded; showing curated entries only.", error);
   }
   state.missions = combinedMissions(catalog);
+  renderDecadeFilters();
   renderList();
   $("#search").addEventListener("input", () => { state.visible = 60; renderList(); });
-  document.querySelectorAll("#decade-filters .filter-chip").forEach((button) => button.addEventListener("click", () => {
-    state.decade = button.dataset.decade; state.visible = 60;
-    document.querySelectorAll("#decade-filters .filter-chip").forEach((chip) => chip.classList.toggle("active", chip === button));
-    renderList();
-  }));
   $("#load-more").addEventListener("click", () => { state.visible += 60; renderList(); });
   document.addEventListener("keydown", (event) => {
     if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); $("#search").focus(); }

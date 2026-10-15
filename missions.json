@@ -3,7 +3,9 @@
   "missions": [
     {
       "name": "3D Tissue Chips",
-      "source": "https://science.nasa.gov/mission/3d-tissue-chips/"
+      "source": "https://science.nasa.gov/mission/3d-tissue-chips/",
+      "launch_date": "Dec. 5, 2018",
+      "year": 2018
     },
     {
       "name": ":envihab",
@@ -11,39 +13,57 @@
     },
     {
       "name": "Able 1 (Pioneer 0)",
-      "source": "https://science.nasa.gov/mission/pioneer-0-able1/"
+      "source": "https://science.nasa.gov/mission/pioneer-0-able1/",
+      "launch_date": "Aug. 17, 1958",
+      "year": 1958
     },
     {
       "name": "Able 2 (Pioneer 1)",
-      "source": "https://science.nasa.gov/mission/pioneer-1-able-2/"
+      "source": "https://science.nasa.gov/mission/pioneer-1-able-2/",
+      "launch_date": "Aug. 17, 1958",
+      "year": 1958
     },
     {
       "name": "Able 4B (Pioneer P-3)",
-      "source": "https://science.nasa.gov/mission/pioneer-p-3-able-4b/"
+      "source": "https://science.nasa.gov/mission/pioneer-p-3-able-4b/",
+      "launch_date": "Nov. 26, 1959",
+      "year": 1959
     },
     {
       "name": "Able 5A (Pioneer P-30)",
-      "source": "https://science.nasa.gov/mission/pioneer-p-30-able-5a/"
+      "source": "https://science.nasa.gov/mission/pioneer-p-30-able-5a/",
+      "launch_date": "Sept. 25, 1960",
+      "year": 1960
     },
     {
       "name": "Able 5B (Pioneer P-31)",
-      "source": "https://science.nasa.gov/mission/pioneer-p-31-able-5b/"
+      "source": "https://science.nasa.gov/mission/pioneer-p-31-able-5b/",
+      "launch_date": "Dec. 15, 1960",
+      "year": 1960
     },
     {
       "name": "ACE (Advanced Composition Explorer)",
-      "source": "https://science.nasa.gov/mission/ace/"
+      "source": "https://science.nasa.gov/mission/ace/",
+      "launch_date": "Aug. 25, 1997",
+      "year": 1997
     },
     {
       "name": "ACME (Advanced Combustion via Microgravity Experiments)",
-      "source": "https://science.nasa.gov/mission/acme/"
+      "source": "https://science.nasa.gov/mission/acme/",
+      "launch_date": "Jun 3, 2017",
+      "year": 2017
     },
     {
       "name": "ACRIMSAT (Active Cavity Irradiance Monitor Satellite)",
-      "source": "https://science.nasa.gov/mission/acrimsat/"
+      "source": "https://science.nasa.gov/mission/acrimsat/",
+      "launch_date": "Dec. 20, 1999",
+      "year": 1999
     },
     {
       "name": "ACS3 (Advanced Composite Solar Sail System)",
-      "source": "https://www.nasa.gov/mission/acs3/"
+      "source": "https://www.nasa.gov/mission/acs3/",
+      "launch_date": "April 23, 2024",
+      "year": 2024
     },
     {
       "name": "ACT-America (Atmospheric Carbon and Transport \u2013 America)",
@@ -59,11 +79,15 @@
     },
     {
       "name": "Advanced Plant Habitat",
-      "source": "https://science.nasa.gov/mission/advanced-plant-habitat/"
+      "source": "https://science.nasa.gov/mission/advanced-plant-habitat/",
+      "launch_date": "April 18, 2017",
+      "year": 2017
     },
     {
       "name": "AIM (Aeronomy of Ice in the Mesosphere)",
-      "source": "https://science.nasa.gov/mission/aim/"
+      "source": "https://science.nasa.gov/mission/aim/",
+      "launch_date": "April 25, 2007",
+      "year": 2007
     },
     {
       "name": "AirMOSS (Airborne Microwave Observatory of Subcanopy and Subsurface)",
@@ -71,63 +95,93 @@
     },
     {
       "name": "Akatsuki",
-      "source": "https://science.nasa.gov/mission/akatsuki/"
+      "source": "https://science.nasa.gov/mission/akatsuki/",
+      "launch_date": "May 20, 2010",
+      "year": 2010
     },
     {
       "name": "Apollo 1",
-      "source": "https://www.nasa.gov/mission/apollo-1/"
+      "source": "https://www.nasa.gov/mission/apollo-1/",
+      "launch_date": "Feb. 21, 1967",
+      "year": 1967
     },
     {
       "name": "Apollo 10",
-      "source": "https://www.nasa.gov/mission/apollo-10/"
+      "source": "https://www.nasa.gov/mission/apollo-10/",
+      "launch_date": "May 18, 1969",
+      "year": 1969
     },
     {
       "name": "Apollo 11",
-      "source": "https://www.nasa.gov/mission/apollo-11/"
+      "source": "https://www.nasa.gov/mission/apollo-11/",
+      "launch_date": "July 16, 1969",
+      "year": 1969
     },
     {
       "name": "Apollo 12",
-      "source": "https://www.nasa.gov/mission/apollo-12/"
+      "source": "https://www.nasa.gov/mission/apollo-12/",
+      "launch_date": "Nov. 14, 1969",
+      "year": 1969
     },
     {
       "name": "Apollo 13",
-      "source": "https://www.nasa.gov/mission/apollo-13/"
+      "source": "https://www.nasa.gov/mission/apollo-13/",
+      "launch_date": "April 11, 1970",
+      "year": 1970
     },
     {
       "name": "Apollo 14",
-      "source": "https://www.nasa.gov/mission/apollo-14/"
+      "source": "https://www.nasa.gov/mission/apollo-14/",
+      "launch_date": "Jan. 31, 1971",
+      "year": 1971
     },
     {
       "name": "Apollo 15",
-      "source": "https://www.nasa.gov/mission/apollo-15/"
+      "source": "https://www.nasa.gov/mission/apollo-15/",
+      "launch_date": "July 26, 1971",
+      "year": 1971
     },
     {
       "name": "Apollo 15 Subsatellite",
-      "source": "https://science.nasa.gov/mission/apollo-15-subsatellite/"
+      "source": "https://science.nasa.gov/mission/apollo-15-subsatellite/",
+      "launch_date": "Aug. 4, 1971",
+      "year": 1971
     },
     {
       "name": "Apollo 16",
-      "source": "https://www.nasa.gov/mission/apollo-16/"
+      "source": "https://www.nasa.gov/mission/apollo-16/",
+      "launch_date": "April 16, 1972",
+      "year": 1972
     },
     {
       "name": "Apollo 16 Subsatellite",
-      "source": "https://science.nasa.gov/mission/apollo-16-subsatellite/"
+      "source": "https://science.nasa.gov/mission/apollo-16-subsatellite/",
+      "launch_date": "Apr. 24, 1972",
+      "year": 1972
     },
     {
       "name": "Apollo 17",
-      "source": "https://www.nasa.gov/mission/apollo-17/"
+      "source": "https://www.nasa.gov/mission/apollo-17/",
+      "launch_date": "Dec. 7, 1972",
+      "year": 1972
     },
     {
       "name": "Apollo 7",
-      "source": "https://www.nasa.gov/mission/apollo-7/"
+      "source": "https://www.nasa.gov/mission/apollo-7/",
+      "launch_date": "Oct. 11, 1968",
+      "year": 1968
     },
     {
       "name": "Apollo 8",
-      "source": "https://www.nasa.gov/mission/apollo-8/"
+      "source": "https://www.nasa.gov/mission/apollo-8/",
+      "launch_date": "Dec. 21, 1968",
+      "year": 1968
     },
     {
       "name": "Apollo 9",
-      "source": "https://www.nasa.gov/mission/apollo-9/"
+      "source": "https://www.nasa.gov/mission/apollo-9/",
+      "launch_date": "March 3, 1969",
+      "year": 1969
     },
     {
       "name": "Aqua",
@@ -143,15 +197,21 @@
     },
     {
       "name": "ARIEL (Atmospheric Remote-sensing Infrared Exoplanet Large-survey)",
-      "source": "https://science.nasa.gov/mission/ariel/"
+      "source": "https://science.nasa.gov/mission/ariel/",
+      "launch_date": "2028",
+      "year": 2028
     },
     {
       "name": "ARTEMIS (THEMIS) (Acceleration, Reconnection, Turbulence and Electrodynamics of Moon\u2019s Interaction with the Sun)",
-      "source": "https://science.nasa.gov/mission/themis-artemis/"
+      "source": "https://science.nasa.gov/mission/themis-artemis/",
+      "launch_date": "Feb. 17, 2007",
+      "year": 2007
     },
     {
       "name": "Artemis I",
-      "source": "https://www.nasa.gov/mission/artemis-i/"
+      "source": "https://www.nasa.gov/mission/artemis-i/",
+      "launch_date": "Nov. 16, 2022",
+      "year": 2022
     },
     {
       "name": "Artemis II",
@@ -159,7 +219,9 @@
     },
     {
       "name": "ASCA (Advanced Satellite for Cosmology and Astrophysics)",
-      "source": "https://science.nasa.gov/mission/asca/"
+      "source": "https://science.nasa.gov/mission/asca/",
+      "launch_date": "Feb. 20, 1993",
+      "year": 1993
     },
     {
       "name": "ASTHROS (Astrophysics Stratospheric Telescope for High Spectral Resolution Observations at Submillimeter-wavelengths)",
@@ -167,31 +229,45 @@
     },
     {
       "name": "Astro Observatory 1",
-      "source": "https://science.nasa.gov/mission/astro-observatory-1/"
+      "source": "https://science.nasa.gov/mission/astro-observatory-1/",
+      "launch_date": "Dec. 2, 1990",
+      "year": 1990
     },
     {
       "name": "Astro Observatory 2",
-      "source": "https://science.nasa.gov/mission/astro-observatory-2/"
+      "source": "https://science.nasa.gov/mission/astro-observatory-2/",
+      "launch_date": "March 2, 1995",
+      "year": 1995
     },
     {
       "name": "ATLAS (Atmospheric Laboratory of Applications and Science)",
-      "source": "https://science.nasa.gov/mission/atlas/"
+      "source": "https://science.nasa.gov/mission/atlas/",
+      "launch_date": "March 24, 1992",
+      "year": 1992
     },
     {
       "name": "Atlas 6 (Friendship 7)",
-      "source": "https://www.nasa.gov/mission/mercury-atlas-6-friendship-7/"
+      "source": "https://www.nasa.gov/mission/mercury-atlas-6-friendship-7/",
+      "launch_date": "Feb. 20, 1962",
+      "year": 1962
     },
     {
       "name": "Atlas 7 (Aurora 7)",
-      "source": "https://www.nasa.gov/mission/mercury-atlas-7-aurora-7/"
+      "source": "https://www.nasa.gov/mission/mercury-atlas-7-aurora-7/",
+      "launch_date": "May 24, 1962",
+      "year": 1962
     },
     {
       "name": "Atlas 8 (Sigma 7)",
-      "source": "https://www.nasa.gov/mission/mercury-atlas-8-sigma-7/"
+      "source": "https://www.nasa.gov/mission/mercury-atlas-8-sigma-7/",
+      "launch_date": "Oct. 3, 1962",
+      "year": 1962
     },
     {
       "name": "Atlas 9 (Faith 7)",
-      "source": "https://www.nasa.gov/mission/mercury-atlas-9-faith-7/"
+      "source": "https://www.nasa.gov/mission/mercury-atlas-9-faith-7/",
+      "launch_date": "May 15, 1963",
+      "year": 1963
     },
     {
       "name": "ATom (Atmospheric Tomography Mission)",
@@ -199,19 +275,27 @@
     },
     {
       "name": "ATS (Applications Technology Satellite)",
-      "source": "https://science.nasa.gov/mission/ats/"
+      "source": "https://science.nasa.gov/mission/ats/",
+      "launch_date": "December 7, 1966",
+      "year": 1966
     },
     {
       "name": "ATTREX (Airborne Tropical TRopopause Experiment)",
-      "source": "https://science.nasa.gov/mission/attrex/"
+      "source": "https://science.nasa.gov/mission/attrex/",
+      "launch_date": "2011",
+      "year": 2011
     },
     {
       "name": "Aura",
-      "source": "https://science.nasa.gov/mission/aura/"
+      "source": "https://science.nasa.gov/mission/aura/",
+      "launch_date": "July 15, 2004",
+      "year": 2004
     },
     {
       "name": "AWE (Atmospheric Waves Experiment)",
-      "source": "https://science.nasa.gov/mission/awe/"
+      "source": "https://science.nasa.gov/mission/awe/",
+      "launch_date": "Nov. 9, 2023",
+      "year": 2023
     },
     {
       "name": "BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses)",
@@ -219,39 +303,57 @@
     },
     {
       "name": "BBXRT (Broad Band X-ray Telescope)",
-      "source": "https://science.nasa.gov/mission/bbxrt/"
+      "source": "https://science.nasa.gov/mission/bbxrt/",
+      "launch_date": "Dec. 2, 1990",
+      "year": 1990
     },
     {
       "name": "BECCAL (Bose Einstein Condensates & Cold Atoms Lab)",
-      "source": "https://science.nasa.gov/mission/beccal/"
+      "source": "https://science.nasa.gov/mission/beccal/",
+      "launch_date": "2025",
+      "year": 2025
     },
     {
       "name": "BepiColombo",
-      "source": "https://science.nasa.gov/mission/bepicolombo/"
+      "source": "https://science.nasa.gov/mission/bepicolombo/",
+      "launch_date": "Oct. 20, 2018",
+      "year": 2018
     },
     {
       "name": "Beresheet",
-      "source": "https://science.nasa.gov/mission/beresheet/"
+      "source": "https://science.nasa.gov/mission/beresheet/",
+      "launch_date": "Feb. 22, 2019",
+      "year": 2019
     },
     {
       "name": "BioExpt-01 (Biological Experiment-01 on Artemis I)",
-      "source": "https://science.nasa.gov/mission/bio-expt-01/"
+      "source": "https://science.nasa.gov/mission/bio-expt-01/",
+      "launch_date": "Nov. 16, 2022",
+      "year": 2022
     },
     {
       "name": "BRIC-24 (Biological Research in Canisters)",
-      "source": "https://science.nasa.gov/mission/bric-24/"
+      "source": "https://science.nasa.gov/mission/bric-24/",
+      "launch_date": "June 3, 2021",
+      "year": 2021
     },
     {
       "name": "CAL (Cold Atom Laboratory)",
-      "source": "https://science.nasa.gov/mission/cold-atom-laboratory/"
+      "source": "https://science.nasa.gov/mission/cold-atom-laboratory/",
+      "launch_date": "May 21, 2018",
+      "year": 2018
     },
     {
       "name": "CALIPSO (Cloud-Aerosol Lidar and Infrared Pathfinder Satellite)",
-      "source": "https://science.nasa.gov/mission/calipso/"
+      "source": "https://science.nasa.gov/mission/calipso/",
+      "launch_date": "April 28, 2006",
+      "year": 2006
     },
     {
       "name": "Carruthers Geocorona Observatory",
-      "source": "https://science.nasa.gov/mission/carruthers-geocorona-observatory/"
+      "source": "https://science.nasa.gov/mission/carruthers-geocorona-observatory/",
+      "launch_date": "September 24, 2025",
+      "year": 2025
     },
     {
       "name": "CARVE (Carbon in Arctic Reservoirs Vulnerability Experiment)",
@@ -259,35 +361,51 @@
     },
     {
       "name": "Cassini-Huygens",
-      "source": "https://science.nasa.gov/mission/cassini/"
+      "source": "https://science.nasa.gov/mission/cassini/",
+      "launch_date": "Oct. 15, 1997",
+      "year": 1997
     },
     {
       "name": "CATS (Cloud-Aerosol Transport System)",
-      "source": "https://science.nasa.gov/mission/cats/"
+      "source": "https://science.nasa.gov/mission/cats/",
+      "launch_date": "Jan. 10, 2015",
+      "year": 2015
     },
     {
       "name": "CeREs (Compact Radiation Belt Explorer)",
-      "source": "https://science.nasa.gov/mission/compact-radiation-belt-explorer/"
+      "source": "https://science.nasa.gov/mission/compact-radiation-belt-explorer/",
+      "launch_date": "Dec. 16, 2018",
+      "year": 2018
     },
     {
       "name": "CGRO (Compton Gamma-Ray Observatory)",
-      "source": "https://science.nasa.gov/mission/cgro/"
+      "source": "https://science.nasa.gov/mission/cgro/",
+      "launch_date": "April 5, 1991",
+      "year": 1991
     },
     {
       "name": "CHAMP (Challenging Mini-satellite Payload)",
-      "source": "https://science.nasa.gov/mission/champ/"
+      "source": "https://science.nasa.gov/mission/champ/",
+      "launch_date": "July 15, 2000",
+      "year": 2000
     },
     {
       "name": "Chandra X-ray Observatory",
-      "source": "https://science.nasa.gov/mission/chandra/"
+      "source": "https://science.nasa.gov/mission/chandra/",
+      "launch_date": "July 23, 1999",
+      "year": 1999
     },
     {
       "name": "Chandrayaan-1 / Moon Impact Probe",
-      "source": "https://science.nasa.gov/mission/chandrayaan-1/"
+      "source": "https://science.nasa.gov/mission/chandrayaan-1/",
+      "launch_date": "Oct. 22, 2008",
+      "year": 2008
     },
     {
       "name": "Chandrayaan-2",
-      "source": "https://science.nasa.gov/mission/chandrayaan-2/"
+      "source": "https://science.nasa.gov/mission/chandrayaan-2/",
+      "launch_date": "July 22, 2019",
+      "year": 2019
     },
     {
       "name": "Chandrayaan-3",
@@ -295,11 +413,15 @@
     },
     {
       "name": "CHIPS (Cosmic Hot Interstellar Plasma Spectrometer)",
-      "source": "https://science.nasa.gov/mission/chips/"
+      "source": "https://science.nasa.gov/mission/chips/",
+      "launch_date": "Jan. 12, 2003",
+      "year": 2003
     },
     {
       "name": "CINDI/CNOFS (Coupled Ion Neutral Dynamic Investigation)",
-      "source": "https://science.nasa.gov/mission/cindi/"
+      "source": "https://science.nasa.gov/mission/cindi/",
+      "launch_date": "April 16, 2008",
+      "year": 2008
     },
     {
       "name": "CLARREO Pathfinder",
@@ -307,7 +429,9 @@
     },
     {
       "name": "Clementine",
-      "source": "https://science.nasa.gov/mission/clementine/"
+      "source": "https://science.nasa.gov/mission/clementine/",
+      "launch_date": "Jan. 25, 1994",
+      "year": 1994
     },
     {
       "name": "CloudSat",
@@ -315,15 +439,21 @@
     },
     {
       "name": "Cluster II",
-      "source": "https://science.nasa.gov/mission/cluster/"
+      "source": "https://science.nasa.gov/mission/cluster/",
+      "launch_date": "Aug. 9, 2000",
+      "year": 2000
     },
     {
       "name": "COBE (Cosmic Background Explorer)",
-      "source": "https://science.nasa.gov/mission/cobe/"
+      "source": "https://science.nasa.gov/mission/cobe/",
+      "launch_date": "Nov. 18, 1989",
+      "year": 1989
     },
     {
       "name": "CONTOUR (COmet Nucleus TOUR)",
-      "source": "https://science.nasa.gov/mission/contour/"
+      "source": "https://science.nasa.gov/mission/contour/",
+      "launch_date": "July 3, 2002",
+      "year": 2002
     },
     {
       "name": "CORAL (COral Reef Airborne Observatory)",
@@ -331,15 +461,21 @@
     },
     {
       "name": "COSI (Compton Spectrometer and Imager)",
-      "source": "https://science.nasa.gov/mission/cosi/"
+      "source": "https://science.nasa.gov/mission/cosi/",
+      "launch_date": "2027",
+      "year": 2027
     },
     {
       "name": "CRRES (Combined Release and Radiation Effects Satellite)",
-      "source": "https://science.nasa.gov/mission/crres/"
+      "source": "https://science.nasa.gov/mission/crres/",
+      "launch_date": "July 25, 1990",
+      "year": 1990
     },
     {
       "name": "CuPID (Cusp Plasma Imaging Detector)",
-      "source": "https://science.nasa.gov/mission/cupid/"
+      "source": "https://science.nasa.gov/mission/cupid/",
+      "launch_date": "Sept. 27, 2021",
+      "year": 2021
     },
     {
       "name": "Curiosity (MSL)",
@@ -347,15 +483,21 @@
     },
     {
       "name": "CuSP (CubeSat Mission to Study Solar Particles)",
-      "source": "https://science.nasa.gov/mission/cusp/"
+      "source": "https://science.nasa.gov/mission/cusp/",
+      "launch_date": "Nov. 16, 2022",
+      "year": 2022
     },
     {
       "name": "CYGNSS (Cyclone Global Navigation Satellite System)",
-      "source": "https://science.nasa.gov/mission/cygnss/"
+      "source": "https://science.nasa.gov/mission/cygnss/",
+      "launch_date": "Dec. 15, 2016",
+      "year": 2016
     },
     {
       "name": "DART (Double Asteroid Redirection Test)",
-      "source": "https://science.nasa.gov/mission/dart/"
+      "source": "https://science.nasa.gov/mission/dart/",
+      "launch_date": "Nov. 24, 2021",
+      "year": 2021
     },
     {
       "name": "DAVINCI (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging)",
@@ -363,15 +505,21 @@
     },
     {
       "name": "Dawn",
-      "source": "https://science.nasa.gov/mission/dawn/"
+      "source": "https://science.nasa.gov/mission/dawn/",
+      "launch_date": "Sept. 27, 2007",
+      "year": 2007
     },
     {
       "name": "Deep Impact (EPOXI)",
-      "source": "https://science.nasa.gov/mission/deep-impact-epoxi/"
+      "source": "https://science.nasa.gov/mission/deep-impact-epoxi/",
+      "launch_date": "Jan. 12, 2005",
+      "year": 2005
     },
     {
       "name": "Deep Space 1",
-      "source": "https://science.nasa.gov/mission/deep-space-1/"
+      "source": "https://science.nasa.gov/mission/deep-space-1/",
+      "launch_date": "Oct. 24, 1998",
+      "year": 1998
     },
     {
       "name": "DISCOVER AQ (Deriving Information on Surface Conditions from COlumn and VERtically Resolved Observations Relevant to Air Quality)",
@@ -379,7 +527,9 @@
     },
     {
       "name": "Disturbance Reduction System",
-      "source": "https://science.nasa.gov/mission/space-technology-7-drs/"
+      "source": "https://science.nasa.gov/mission/space-technology-7-drs/",
+      "launch_date": "Dec. 3, 2015",
+      "year": 2015
     },
     {
       "name": "Dragonfly",
@@ -387,27 +537,39 @@
     },
     {
       "name": "DSCOVR (Deep Space Climate Observatory)",
-      "source": "https://science.nasa.gov/mission/dscovr/"
+      "source": "https://science.nasa.gov/mission/dscovr/",
+      "launch_date": "Feb. 11, 2015",
+      "year": 2015
     },
     {
       "name": "DXS (Diffuse X-ray Spectrometer)",
-      "source": "https://science.nasa.gov/mission/dxs/"
+      "source": "https://science.nasa.gov/mission/dxs/",
+      "launch_date": "Jan. 19, 1993",
+      "year": 1993
     },
     {
       "name": "Dynamics Explorer",
-      "source": "https://science.nasa.gov/mission/dynamics-explorer/"
+      "source": "https://science.nasa.gov/mission/dynamics-explorer/",
+      "launch_date": "Aug. 3, 1981",
+      "year": 1981
     },
     {
       "name": "E-TBEx (Enhanced Tandem Beacon Experiment)",
-      "source": "https://science.nasa.gov/mission/e-tbex/"
+      "source": "https://science.nasa.gov/mission/e-tbex/",
+      "launch_date": "June 25, 2019",
+      "year": 2019
     },
     {
       "name": "ECOSTRESS (ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station)",
-      "source": "https://science.nasa.gov/mission/ecostress/"
+      "source": "https://science.nasa.gov/mission/ecostress/",
+      "launch_date": "June 29, 2018",
+      "year": 2018
     },
     {
       "name": "EFT 1 (Exploration Flight Test 1)",
-      "source": "https://www.nasa.gov/mission/exploration-flight-test-1/"
+      "source": "https://www.nasa.gov/mission/exploration-flight-test-1/",
+      "launch_date": "Dec. 5, 2014",
+      "year": 2014
     },
     {
       "name": "ELaNa",
@@ -415,39 +577,57 @@
     },
     {
       "name": "ELFIN",
-      "source": "https://science.nasa.gov/mission/elfin/"
+      "source": "https://science.nasa.gov/mission/elfin/",
+      "launch_date": "Sept. 15, 2018",
+      "year": 2018
     },
     {
       "name": "EMIT (Earth Surface Mineral Dust Source Investigation)",
-      "source": "https://science.nasa.gov/mission/emit/"
+      "source": "https://science.nasa.gov/mission/emit/",
+      "launch_date": "July 14, 2022",
+      "year": 2022
     },
     {
       "name": "EnVision",
-      "source": "https://science.nasa.gov/mission/envision/"
+      "source": "https://science.nasa.gov/mission/envision/",
+      "launch_date": "2030",
+      "year": 2030
     },
     {
       "name": "EO-1 (Earth Observing-1)",
-      "source": "https://science.nasa.gov/mission/eo-1/"
+      "source": "https://science.nasa.gov/mission/eo-1/",
+      "launch_date": "Nov. 21, 2000",
+      "year": 2000
     },
     {
       "name": "Equator-S",
-      "source": "https://science.nasa.gov/mission/equator-s/"
+      "source": "https://science.nasa.gov/mission/equator-s/",
+      "launch_date": "Dec. 2, 1997",
+      "year": 1997
     },
     {
       "name": "ERBS (Earth Radiation Budget Satellite)",
-      "source": "https://science.nasa.gov/mission/erbs/"
+      "source": "https://science.nasa.gov/mission/erbs/",
+      "launch_date": "Oct. 5, 1984",
+      "year": 1984
     },
     {
       "name": "EscaPADE (Escape and Plasma Acceleration and Dynamics Explorers)",
-      "source": "https://science.nasa.gov/mission/escapade/"
+      "source": "https://science.nasa.gov/mission/escapade/",
+      "launch_date": "Nov. 13, 2025",
+      "year": 2025
     },
     {
       "name": "ESSA (Environmental Sciences Services Administration)",
-      "source": "https://science.nasa.gov/mission/essa/"
+      "source": "https://science.nasa.gov/mission/essa/",
+      "launch_date": "Feb. 3, 1966",
+      "year": 1966
     },
     {
       "name": "Euclid",
-      "source": "https://science.nasa.gov/mission/euclid/"
+      "source": "https://science.nasa.gov/mission/euclid/",
+      "launch_date": "July 1, 2023",
+      "year": 2023
     },
     {
       "name": "Europa Clipper",
@@ -459,7 +639,9 @@
     },
     {
       "name": "EUVE (Extreme Ultraviolet Explorer)",
-      "source": "https://science.nasa.gov/mission/euve/"
+      "source": "https://science.nasa.gov/mission/euve/",
+      "launch_date": "June 7, 1992",
+      "year": 1992
     },
     {
       "name": "EUVST (Extreme Ultraviolet High-Throughput Spectroscopic Telescope Epsilon)",
@@ -475,263 +657,393 @@
     },
     {
       "name": "Expedition 1",
-      "source": "https://www.nasa.gov/mission/expedition-1/"
+      "source": "https://www.nasa.gov/mission/expedition-1/",
+      "launch_date": "Oct. 31, 2000",
+      "year": 2000
     },
     {
       "name": "Expedition 10",
-      "source": "https://www.nasa.gov/mission/expedition-10/"
+      "source": "https://www.nasa.gov/mission/expedition-10/",
+      "launch_date": "Oct. 13, 2004",
+      "year": 2004
     },
     {
       "name": "Expedition 11",
-      "source": "https://www.nasa.gov/mission/expedition-11/"
+      "source": "https://www.nasa.gov/mission/expedition-11/",
+      "launch_date": "April 14, 2005",
+      "year": 2005
     },
     {
       "name": "Expedition 12",
-      "source": "https://www.nasa.gov/mission/expedition-12/"
+      "source": "https://www.nasa.gov/mission/expedition-12/",
+      "launch_date": "Sept. 30, 2005",
+      "year": 2005
     },
     {
       "name": "Expedition 13",
-      "source": "https://www.nasa.gov/mission/expedition-13/"
+      "source": "https://www.nasa.gov/mission/expedition-13/",
+      "launch_date": "March 29, 2006",
+      "year": 2006
     },
     {
       "name": "Expedition 14",
-      "source": "https://www.nasa.gov/mission/expedition-14/"
+      "source": "https://www.nasa.gov/mission/expedition-14/",
+      "launch_date": "Sept. 17, 2006",
+      "year": 2006
     },
     {
       "name": "Expedition 15",
-      "source": "https://www.nasa.gov/mission/expedition-15/"
+      "source": "https://www.nasa.gov/mission/expedition-15/",
+      "launch_date": "April 7, 2007",
+      "year": 2007
     },
     {
       "name": "Expedition 16",
-      "source": "https://www.nasa.gov/mission/expedition-16/"
+      "source": "https://www.nasa.gov/mission/expedition-16/",
+      "launch_date": "Oct. 10, 2007",
+      "year": 2007
     },
     {
       "name": "Expedition 17",
-      "source": "https://www.nasa.gov/mission/expedition-17/"
+      "source": "https://www.nasa.gov/mission/expedition-17/",
+      "launch_date": "March 8, 2008",
+      "year": 2008
     },
     {
       "name": "Expedition 18",
-      "source": "https://www.nasa.gov/mission/expedition-18/"
+      "source": "https://www.nasa.gov/mission/expedition-18/",
+      "launch_date": "Oct. 12, 2008",
+      "year": 2008
     },
     {
       "name": "Expedition 19",
-      "source": "https://www.nasa.gov/mission/expedition-19/"
+      "source": "https://www.nasa.gov/mission/expedition-19/",
+      "launch_date": "March 26, 2009",
+      "year": 2009
     },
     {
       "name": "Expedition 2",
-      "source": "https://www.nasa.gov/mission/expedition-2/"
+      "source": "https://www.nasa.gov/mission/expedition-2/",
+      "launch_date": "March 8, 2001",
+      "year": 2001
     },
     {
       "name": "Expedition 20",
-      "source": "https://www.nasa.gov/mission/expedition-20/"
+      "source": "https://www.nasa.gov/mission/expedition-20/",
+      "launch_date": "May 27, 2009",
+      "year": 2009
     },
     {
       "name": "Expedition 21",
-      "source": "https://www.nasa.gov/mission/expedition-21/"
+      "source": "https://www.nasa.gov/mission/expedition-21/",
+      "launch_date": "May 27, 2009",
+      "year": 2009
     },
     {
       "name": "Expedition 22",
-      "source": "https://www.nasa.gov/mission/expedition-22/"
+      "source": "https://www.nasa.gov/mission/expedition-22/",
+      "launch_date": "Sept. 30, 2009",
+      "year": 2009
     },
     {
       "name": "Expedition 23",
-      "source": "https://www.nasa.gov/mission/expedition-23/"
+      "source": "https://www.nasa.gov/mission/expedition-23/",
+      "launch_date": "Dec. 20, 2009",
+      "year": 2009
     },
     {
       "name": "Expedition 24",
-      "source": "https://www.nasa.gov/mission/expedition-24/"
+      "source": "https://www.nasa.gov/mission/expedition-24/",
+      "launch_date": "April 2, 2010",
+      "year": 2010
     },
     {
       "name": "Expedition 25",
-      "source": "https://www.nasa.gov/mission/expedition-25/"
+      "source": "https://www.nasa.gov/mission/expedition-25/",
+      "launch_date": "June 15, 2010",
+      "year": 2010
     },
     {
       "name": "Expedition 26",
-      "source": "https://www.nasa.gov/mission/expedition-26/"
+      "source": "https://www.nasa.gov/mission/expedition-26/",
+      "launch_date": "Oct. 7, 2010",
+      "year": 2010
     },
     {
       "name": "Expedition 27",
-      "source": "https://www.nasa.gov/mission/expedition-27/"
+      "source": "https://www.nasa.gov/mission/expedition-27/",
+      "launch_date": "Dec. 15, 2010",
+      "year": 2010
     },
     {
       "name": "Expedition 28",
-      "source": "https://www.nasa.gov/mission/expedition-28/"
+      "source": "https://www.nasa.gov/mission/expedition-28/",
+      "launch_date": "April 4, 2011",
+      "year": 2011
     },
     {
       "name": "Expedition 29",
-      "source": "https://www.nasa.gov/mission/expedition-29/"
+      "source": "https://www.nasa.gov/mission/expedition-29/",
+      "launch_date": "June 7, 2011",
+      "year": 2011
     },
     {
       "name": "Expedition 3",
-      "source": "https://www.nasa.gov/mission/expedition-3/"
+      "source": "https://www.nasa.gov/mission/expedition-3/",
+      "launch_date": "Aug. 10, 2001",
+      "year": 2001
     },
     {
       "name": "Expedition 30",
-      "source": "https://www.nasa.gov/mission/expedition-30/"
+      "source": "https://www.nasa.gov/mission/expedition-30/",
+      "launch_date": "Nov. 13, 2011",
+      "year": 2011
     },
     {
       "name": "Expedition 31",
-      "source": "https://www.nasa.gov/mission/expedition-31/"
+      "source": "https://www.nasa.gov/mission/expedition-31/",
+      "launch_date": "Dec. 21, 2011",
+      "year": 2011
     },
     {
       "name": "Expedition 32",
-      "source": "https://www.nasa.gov/mission/expedition-32/"
+      "source": "https://www.nasa.gov/mission/expedition-32/",
+      "launch_date": "May 14, 2012",
+      "year": 2012
     },
     {
       "name": "Expedition 33",
-      "source": "https://www.nasa.gov/mission/expedition-33/"
+      "source": "https://www.nasa.gov/mission/expedition-33/",
+      "launch_date": "July 14, 2012",
+      "year": 2012
     },
     {
       "name": "Expedition 34",
-      "source": "https://www.nasa.gov/mission/expedition-34/"
+      "source": "https://www.nasa.gov/mission/expedition-34/",
+      "launch_date": "Oct. 23, 2012",
+      "year": 2012
     },
     {
       "name": "Expedition 35",
-      "source": "https://www.nasa.gov/mission/expedition-35/"
+      "source": "https://www.nasa.gov/mission/expedition-35/",
+      "launch_date": "Dec. 19, 2012",
+      "year": 2012
     },
     {
       "name": "Expedition 36",
-      "source": "https://www.nasa.gov/mission/expedition-36/"
+      "source": "https://www.nasa.gov/mission/expedition-36/",
+      "launch_date": "March 28, 2013",
+      "year": 2013
     },
     {
       "name": "Expedition 37",
-      "source": "https://www.nasa.gov/mission/expedition-37/"
+      "source": "https://www.nasa.gov/mission/expedition-37/",
+      "launch_date": "May 28, 2013",
+      "year": 2013
     },
     {
       "name": "Expedition 38",
-      "source": "https://www.nasa.gov/mission/expedition-38/"
+      "source": "https://www.nasa.gov/mission/expedition-38/",
+      "launch_date": "Sept. 25, 2013",
+      "year": 2013
     },
     {
       "name": "Expedition 39",
-      "source": "https://www.nasa.gov/mission/expedition-39/"
+      "source": "https://www.nasa.gov/mission/expedition-39/",
+      "launch_date": "Nov. 7, 2013",
+      "year": 2013
     },
     {
       "name": "Expedition 4",
-      "source": "https://www.nasa.gov/mission/expedition-4/"
+      "source": "https://www.nasa.gov/mission/expedition-4/",
+      "launch_date": "Dec. 5, 2001",
+      "year": 2001
     },
     {
       "name": "Expedition 40",
-      "source": "https://www.nasa.gov/mission/expedition-40/"
+      "source": "https://www.nasa.gov/mission/expedition-40/",
+      "launch_date": "March 25, 2014",
+      "year": 2014
     },
     {
       "name": "Expedition 41",
-      "source": "https://www.nasa.gov/mission/expedition-41/"
+      "source": "https://www.nasa.gov/mission/expedition-41/",
+      "launch_date": "May 28, 2014",
+      "year": 2014
     },
     {
       "name": "Expedition 42",
-      "source": "https://www.nasa.gov/mission/expedition-42/"
+      "source": "https://www.nasa.gov/mission/expedition-42/",
+      "launch_date": "Sept. 25, 2014",
+      "year": 2014
     },
     {
       "name": "Expedition 43",
-      "source": "https://www.nasa.gov/mission/expedition-43/"
+      "source": "https://www.nasa.gov/mission/expedition-43/",
+      "launch_date": "Nov. 23, 2014",
+      "year": 2014
     },
     {
       "name": "Expedition 44",
-      "source": "https://www.nasa.gov/mission/expedition-44/"
+      "source": "https://www.nasa.gov/mission/expedition-44/",
+      "launch_date": "March 27, 2015",
+      "year": 2015
     },
     {
       "name": "Expedition 45",
-      "source": "https://www.nasa.gov/mission/expedition-45/"
+      "source": "https://www.nasa.gov/mission/expedition-45/",
+      "launch_date": "July 22, 2015",
+      "year": 2015
     },
     {
       "name": "Expedition 46",
-      "source": "https://www.nasa.gov/mission/expedition-46/"
+      "source": "https://www.nasa.gov/mission/expedition-46/",
+      "launch_date": "Dec. 15, 2015",
+      "year": 2015
     },
     {
       "name": "Expedition 47",
-      "source": "https://www.nasa.gov/mission/expedition-47/"
+      "source": "https://www.nasa.gov/mission/expedition-47/",
+      "launch_date": "Dec. 15, 2015",
+      "year": 2015
     },
     {
       "name": "Expedition 48",
-      "source": "https://www.nasa.gov/mission/expedition-48/"
+      "source": "https://www.nasa.gov/mission/expedition-48/",
+      "launch_date": "March 18, 2016",
+      "year": 2016
     },
     {
       "name": "Expedition 49",
-      "source": "https://www.nasa.gov/mission/expedition-49/"
+      "source": "https://www.nasa.gov/mission/expedition-49/",
+      "launch_date": "June 6, 2016",
+      "year": 2016
     },
     {
       "name": "Expedition 5",
-      "source": "https://www.nasa.gov/mission/expedition-5/"
+      "source": "https://www.nasa.gov/mission/expedition-5/",
+      "launch_date": "June 5, 2002",
+      "year": 2002
     },
     {
       "name": "Expedition 50",
-      "source": "https://www.nasa.gov/mission/expedition-50/"
+      "source": "https://www.nasa.gov/mission/expedition-50/",
+      "launch_date": "Oct. 19, 2016",
+      "year": 2016
     },
     {
       "name": "Expedition 51",
-      "source": "https://www.nasa.gov/mission/expedition-51/"
+      "source": "https://www.nasa.gov/mission/expedition-51/",
+      "launch_date": "Nov. 17, 2016",
+      "year": 2016
     },
     {
       "name": "Expedition 52",
-      "source": "https://www.nasa.gov/mission/expedition-52/"
+      "source": "https://www.nasa.gov/mission/expedition-52/",
+      "launch_date": "April 20, 2017",
+      "year": 2017
     },
     {
       "name": "Expedition 53",
-      "source": "https://www.nasa.gov/mission/expedition-53/"
+      "source": "https://www.nasa.gov/mission/expedition-53/",
+      "launch_date": "July 28, 2017",
+      "year": 2017
     },
     {
       "name": "Expedition 54",
-      "source": "https://www.nasa.gov/mission/expedition-54/"
+      "source": "https://www.nasa.gov/mission/expedition-54/",
+      "launch_date": "Sep. 12, 2017",
+      "year": 2017
     },
     {
       "name": "Expedition 55",
-      "source": "https://www.nasa.gov/mission/expedition-55/"
+      "source": "https://www.nasa.gov/mission/expedition-55/",
+      "launch_date": "Dec. 17, 2017",
+      "year": 2017
     },
     {
       "name": "Expedition 56",
-      "source": "https://www.nasa.gov/mission/expedition-56/"
+      "source": "https://www.nasa.gov/mission/expedition-56/",
+      "launch_date": "March 21, 2018",
+      "year": 2018
     },
     {
       "name": "Expedition 57",
-      "source": "https://www.nasa.gov/mission/expedition-57/"
+      "source": "https://www.nasa.gov/mission/expedition-57/",
+      "launch_date": "June 6, 2018",
+      "year": 2018
     },
     {
       "name": "Expedition 58",
-      "source": "https://www.nasa.gov/mission/expedition-58/"
+      "source": "https://www.nasa.gov/mission/expedition-58/",
+      "launch_date": "Dec. 3, 2018",
+      "year": 2018
     },
     {
       "name": "Expedition 59",
-      "source": "https://www.nasa.gov/mission/expedition-59/"
+      "source": "https://www.nasa.gov/mission/expedition-59/",
+      "launch_date": "March 14, 2019",
+      "year": 2019
     },
     {
       "name": "Expedition 6",
-      "source": "https://www.nasa.gov/mission/expedition-6/"
+      "source": "https://www.nasa.gov/mission/expedition-6/",
+      "launch_date": "Nov. 23, 2002",
+      "year": 2002
     },
     {
       "name": "Expedition 60",
-      "source": "https://www.nasa.gov/mission/expedition-60/"
+      "source": "https://www.nasa.gov/mission/expedition-60/",
+      "launch_date": "March 14, 2019",
+      "year": 2019
     },
     {
       "name": "Expedition 61",
-      "source": "https://www.nasa.gov/mission/expedition-61/"
+      "source": "https://www.nasa.gov/mission/expedition-61/",
+      "launch_date": "July 20, 2019",
+      "year": 2019
     },
     {
       "name": "Expedition 62",
-      "source": "https://www.nasa.gov/mission/expedition-62/"
+      "source": "https://www.nasa.gov/mission/expedition-62/",
+      "launch_date": "Sep. 25, 2019",
+      "year": 2019
     },
     {
       "name": "Expedition 63",
-      "source": "https://www.nasa.gov/mission/expedition-63/"
+      "source": "https://www.nasa.gov/mission/expedition-63/",
+      "launch_date": "April 9, 2020",
+      "year": 2020
     },
     {
       "name": "Expedition 64",
-      "source": "https://www.nasa.gov/mission/expedition-64/"
+      "source": "https://www.nasa.gov/mission/expedition-64/",
+      "launch_date": "Oct. 14, 2020",
+      "year": 2020
     },
     {
       "name": "Expedition 65",
-      "source": "https://www.nasa.gov/mission/expedition-65/"
+      "source": "https://www.nasa.gov/mission/expedition-65/",
+      "launch_date": "April 9, 2021",
+      "year": 2021
     },
     {
       "name": "Expedition 66",
-      "source": "https://www.nasa.gov/mission/expedition-66/"
+      "source": "https://www.nasa.gov/mission/expedition-66/",
+      "launch_date": "Oct. 17, 2021",
+      "year": 2021
     },
     {
       "name": "Expedition 67",
-      "source": "https://www.nasa.gov/mission/expedition-67/"
+      "source": "https://www.nasa.gov/mission/expedition-67/",
+      "launch_date": "March 18, 2022",
+      "year": 2022
     },
     {
       "name": "Expedition 68",
-      "source": "https://www.nasa.gov/mission/expedition-68/"
+      "source": "https://www.nasa.gov/mission/expedition-68/",
+      "launch_date": "Sep. 29, 2022",
+      "year": 2022
     },
     {
       "name": "Expedition 69",
@@ -739,75 +1051,111 @@
     },
     {
       "name": "Expedition 7",
-      "source": "https://www.nasa.gov/mission/expedition-7/"
+      "source": "https://www.nasa.gov/mission/expedition-7/",
+      "launch_date": "April 25, 2003",
+      "year": 2003
     },
     {
       "name": "Expedition 8",
-      "source": "https://www.nasa.gov/mission/expedition-8/"
+      "source": "https://www.nasa.gov/mission/expedition-8/",
+      "launch_date": "Oct. 18, 2003",
+      "year": 2003
     },
     {
       "name": "Expedition 9",
-      "source": "https://www.nasa.gov/mission/expedition-9/"
+      "source": "https://www.nasa.gov/mission/expedition-9/",
+      "launch_date": "April 18, 2004",
+      "year": 2004
     },
     {
       "name": "Explorer 33",
-      "source": "https://science.nasa.gov/mission/explorer-33/"
+      "source": "https://science.nasa.gov/mission/explorer-33/",
+      "launch_date": "July 1, 1966",
+      "year": 1966
     },
     {
       "name": "Explorer 35",
-      "source": "https://science.nasa.gov/mission/explorer-35/"
+      "source": "https://science.nasa.gov/mission/explorer-35/",
+      "launch_date": "July 19, 1967",
+      "year": 1967
     },
     {
       "name": "Explorer 49",
-      "source": "https://science.nasa.gov/mission/explorer-49/"
+      "source": "https://science.nasa.gov/mission/explorer-49/",
+      "launch_date": "June 10, 1973",
+      "year": 1973
     },
     {
       "name": "EZIE (Electrojet Zeeman Imaging Explorer)",
-      "source": "https://science.nasa.gov/mission/ezie/"
+      "source": "https://science.nasa.gov/mission/ezie/",
+      "launch_date": "March 15, 2025",
+      "year": 2025
     },
     {
       "name": "FAST (Fast Auroral Snapshot Explorer)",
-      "source": "https://science.nasa.gov/mission/fast/"
+      "source": "https://science.nasa.gov/mission/fast/",
+      "launch_date": "Aug. 21, 1996",
+      "year": 1996
     },
     {
       "name": "FASTSat (Fast, Affordable, Science and Technology Satellite)",
-      "source": "https://science.nasa.gov/mission/fastsat/"
+      "source": "https://science.nasa.gov/mission/fastsat/",
+      "launch_date": "Nov. 20, 2010",
+      "year": 2010
     },
     {
       "name": "FBCE (Flow Boiling and Condensation Experiment)",
-      "source": "https://science.nasa.gov/mission/fbce/"
+      "source": "https://science.nasa.gov/mission/fbce/",
+      "launch_date": "Aug. 10, 2021",
+      "year": 2021
     },
     {
       "name": "Fermi (Fermi Gamma-ray Space Telescope)",
-      "source": "https://science.nasa.gov/mission/fermi/"
+      "source": "https://science.nasa.gov/mission/fermi/",
+      "launch_date": "June 11, 2008",
+      "year": 2008
     },
     {
       "name": "FFL (Fruit Fly Lab)",
-      "source": "https://science.nasa.gov/mission/ffl/"
+      "source": "https://science.nasa.gov/mission/ffl/",
+      "launch_date": "Jan. 10, 2015",
+      "year": 2015
     },
     {
       "name": "FLARE (Flammability Limits At Reduced-g Experiment)",
-      "source": "https://science.nasa.gov/mission/flare/"
+      "source": "https://science.nasa.gov/mission/flare/",
+      "launch_date": "Sept. 24, 2019",
+      "year": 2019
     },
     {
       "name": "FUSE (Far Ultraviolet Spectroscopic Explorer)",
-      "source": "https://science.nasa.gov/mission/fuse/"
+      "source": "https://science.nasa.gov/mission/fuse/",
+      "launch_date": "June 24, 1999",
+      "year": 1999
     },
     {
       "name": "Gaia",
-      "source": "https://science.nasa.gov/mission/gaia/"
+      "source": "https://science.nasa.gov/mission/gaia/",
+      "launch_date": "Dec. 19, 2013",
+      "year": 2013
     },
     {
       "name": "GALEX (Galaxy Evolution Explorer)",
-      "source": "https://science.nasa.gov/mission/galex/"
+      "source": "https://science.nasa.gov/mission/galex/",
+      "launch_date": "April 28, 2003",
+      "year": 2003
     },
     {
       "name": "Galileo",
-      "source": "https://science.nasa.gov/mission/galileo/"
+      "source": "https://science.nasa.gov/mission/galileo/",
+      "launch_date": "Oct. 18, 1989",
+      "year": 1989
     },
     {
       "name": "Galileo Jupiter Atmospheric Probe",
-      "source": "https://science.nasa.gov/mission/galileo-jupiter-atmospheric-probe/"
+      "source": "https://science.nasa.gov/mission/galileo-jupiter-atmospheric-probe/",
+      "launch_date": "Oct. 18, 1989",
+      "year": 1989
     },
     {
       "name": "Gateway",
@@ -819,71 +1167,105 @@
     },
     {
       "name": "GEDI (Global Ecosystem Dynamics Investigation)",
-      "source": "https://science.nasa.gov/mission/gedi/"
+      "source": "https://science.nasa.gov/mission/gedi/",
+      "launch_date": "Dec. 5, 2018",
+      "year": 2018
     },
     {
       "name": "Gemini I",
-      "source": "https://www.nasa.gov/mission/gemini-i/"
+      "source": "https://www.nasa.gov/mission/gemini-i/",
+      "launch_date": "April 8, 1964",
+      "year": 1964
     },
     {
       "name": "Gemini II",
-      "source": "https://www.nasa.gov/mission/gemini-ii/"
+      "source": "https://www.nasa.gov/mission/gemini-ii/",
+      "launch_date": "Jan. 19, 1965",
+      "year": 1965
     },
     {
       "name": "Gemini III",
-      "source": "https://www.nasa.gov/mission/gemini-3/"
+      "source": "https://www.nasa.gov/mission/gemini-3/",
+      "launch_date": "March 23, 1965",
+      "year": 1965
     },
     {
       "name": "Gemini IV",
-      "source": "https://www.nasa.gov/mission/gemini-iv/"
+      "source": "https://www.nasa.gov/mission/gemini-iv/",
+      "launch_date": "June 3, 1965",
+      "year": 1965
     },
     {
       "name": "Gemini IX",
-      "source": "https://www.nasa.gov/mission/gemini-ix/"
+      "source": "https://www.nasa.gov/mission/gemini-ix/",
+      "launch_date": "June 3, 1966",
+      "year": 1966
     },
     {
       "name": "Gemini V",
-      "source": "https://www.nasa.gov/mission/gemini-v/"
+      "source": "https://www.nasa.gov/mission/gemini-v/",
+      "launch_date": "Aug. 21, 1965",
+      "year": 1965
     },
     {
       "name": "Gemini VI",
-      "source": "https://www.nasa.gov/mission/gemini-vi/"
+      "source": "https://www.nasa.gov/mission/gemini-vi/",
+      "launch_date": "Dec. 15, 1965",
+      "year": 1965
     },
     {
       "name": "Gemini VII",
-      "source": "https://www.nasa.gov/mission/gemini-vii/"
+      "source": "https://www.nasa.gov/mission/gemini-vii/",
+      "launch_date": "Dec. 4, 1965",
+      "year": 1965
     },
     {
       "name": "Gemini VIII",
-      "source": "https://www.nasa.gov/mission/gemini-viii/"
+      "source": "https://www.nasa.gov/mission/gemini-viii/",
+      "launch_date": "March 16, 1966",
+      "year": 1966
     },
     {
       "name": "Gemini X",
-      "source": "https://www.nasa.gov/mission/gemini-x/"
+      "source": "https://www.nasa.gov/mission/gemini-x/",
+      "launch_date": "July 18, 1966",
+      "year": 1966
     },
     {
       "name": "Gemini XI",
-      "source": "https://www.nasa.gov/mission/gemini-xi/"
+      "source": "https://www.nasa.gov/mission/gemini-xi/",
+      "launch_date": "Sept. 12, 1966",
+      "year": 1966
     },
     {
       "name": "Gemini XII",
-      "source": "https://www.nasa.gov/mission/gemini-xii/"
+      "source": "https://www.nasa.gov/mission/gemini-xii/",
+      "launch_date": "Nov. 11, 1966",
+      "year": 1966
     },
     {
       "name": "Genesis",
-      "source": "https://science.nasa.gov/mission/genesis/"
+      "source": "https://science.nasa.gov/mission/genesis/",
+      "launch_date": "August 8, 2001",
+      "year": 2001
     },
     {
       "name": "Geosat (U.S. Navy GEOdetic SATellite)",
-      "source": "https://science.nasa.gov/mission/geosat/"
+      "source": "https://science.nasa.gov/mission/geosat/",
+      "launch_date": "March 12, 1985",
+      "year": 1985
     },
     {
       "name": "Geotail",
-      "source": "https://science.nasa.gov/mission/geotail/"
+      "source": "https://science.nasa.gov/mission/geotail/",
+      "launch_date": "July 24, 1992",
+      "year": 1992
     },
     {
       "name": "Giotto",
-      "source": "https://science.nasa.gov/mission/giotto/"
+      "source": "https://science.nasa.gov/mission/giotto/",
+      "launch_date": "July 2, 1985",
+      "year": 1985
     },
     {
       "name": "GLIMR (Geostationary Littoral Imaging and Monitoring Radiometer)",
@@ -891,7 +1273,9 @@
     },
     {
       "name": "Glory",
-      "source": "https://science.nasa.gov/mission/glory/"
+      "source": "https://science.nasa.gov/mission/glory/",
+      "launch_date": "March 4, 2011",
+      "year": 2011
     },
     {
       "name": "GOES Satellite Network",
@@ -903,11 +1287,15 @@
     },
     {
       "name": "GOLD (Global-scale Observations of the Limb and Disk)",
-      "source": "https://science.nasa.gov/mission/gold/"
+      "source": "https://science.nasa.gov/mission/gold/",
+      "launch_date": "Jan. 25, 2018",
+      "year": 2018
     },
     {
       "name": "GP-B (Gravity Probe B)",
-      "source": "https://science.nasa.gov/mission/gravity-probe-b/"
+      "source": "https://science.nasa.gov/mission/gravity-probe-b/",
+      "launch_date": "April 20, 2004",
+      "year": 2004
     },
     {
       "name": "GPM (Global Precipitation Measurement)",
@@ -915,19 +1303,27 @@
     },
     {
       "name": "GRACE (Gravity Recovery And Climate Experiment)",
-      "source": "https://science.nasa.gov/mission/grace/"
+      "source": "https://science.nasa.gov/mission/grace/",
+      "launch_date": "March 17, 2002",
+      "year": 2002
     },
     {
       "name": "GRACE-FO (Gravity Recovery and Climate Experiment Follow-on)",
-      "source": "https://science.nasa.gov/mission/grace-fo/"
+      "source": "https://science.nasa.gov/mission/grace-fo/",
+      "launch_date": "May 22, 2018",
+      "year": 2018
     },
     {
       "name": "GRAIL (Ebb and Flow) (Gravity Recovery And Interior Laboratory)",
-      "source": "https://science.nasa.gov/mission/grail/"
+      "source": "https://science.nasa.gov/mission/grail/",
+      "launch_date": "Sept. 10, 2011",
+      "year": 2011
     },
     {
       "name": "Green Propellant Infusion",
-      "source": "https://www.nasa.gov/mission/green-propellant-infusion-mission-gpim/"
+      "source": "https://www.nasa.gov/mission/green-propellant-infusion-mission-gpim/",
+      "launch_date": "June 25, 2019",
+      "year": 2019
     },
     {
       "name": "GRIP (Genesis and Rapid Intensification Processes)",
@@ -935,31 +1331,45 @@
     },
     {
       "name": "HALCA (Highly Advanced Laboratory for Communications and Astronomy)",
-      "source": "https://science.nasa.gov/mission/halca/"
+      "source": "https://science.nasa.gov/mission/halca/",
+      "launch_date": "Feb. 12, 1997",
+      "year": 1997
     },
     {
       "name": "HaloSat",
-      "source": "https://science.nasa.gov/mission/halosat/"
+      "source": "https://science.nasa.gov/mission/halosat/",
+      "launch_date": "May 21, 2018",
+      "year": 2018
     },
     {
       "name": "Hayabusa",
-      "source": "https://science.nasa.gov/mission/hayabusa/"
+      "source": "https://science.nasa.gov/mission/hayabusa/",
+      "launch_date": "May 9, 2003",
+      "year": 2003
     },
     {
       "name": "Hayabusa2",
-      "source": "https://science.nasa.gov/mission/hayabusa-2/"
+      "source": "https://science.nasa.gov/mission/hayabusa-2/",
+      "launch_date": "Dec. 3, 2014",
+      "year": 2014
     },
     {
       "name": "Helios 1",
-      "source": "https://science.nasa.gov/mission/helios-1/"
+      "source": "https://science.nasa.gov/mission/helios-1/",
+      "launch_date": "Dec. 10, 1974",
+      "year": 1974
     },
     {
       "name": "Helios 2",
-      "source": "https://science.nasa.gov/mission/helios-2/"
+      "source": "https://science.nasa.gov/mission/helios-2/",
+      "launch_date": "Jan. 15, 1976",
+      "year": 1976
     },
     {
       "name": "HelioSwarm",
-      "source": "https://science.nasa.gov/mission/helioswarm/"
+      "source": "https://science.nasa.gov/mission/helioswarm/",
+      "launch_date": "2029",
+      "year": 2029
     },
     {
       "name": "HERMES (Heliophysics Environmental and Radiation Measurement Experiment Suite)",
@@ -967,31 +1377,45 @@
     },
     {
       "name": "Herschel Space Observatory",
-      "source": "https://science.nasa.gov/mission/herschel-space-observatory/"
+      "source": "https://science.nasa.gov/mission/herschel-space-observatory/",
+      "launch_date": "May 14, 2009",
+      "year": 2009
     },
     {
       "name": "HETE 1 (High Energy Transient Explorer 1)",
-      "source": "https://science.nasa.gov/mission/hete-1/"
+      "source": "https://science.nasa.gov/mission/hete-1/",
+      "launch_date": "Nov. 4, 1996",
+      "year": 1996
     },
     {
       "name": "HETE 2 (High Energy Transient Explorer 2)",
-      "source": "https://science.nasa.gov/mission/hete-2/"
+      "source": "https://science.nasa.gov/mission/hete-2/",
+      "launch_date": "Oct. 9, 2000",
+      "year": 2000
     },
     {
       "name": "Hinode (Solar-B)",
-      "source": "https://science.nasa.gov/mission/hinode/"
+      "source": "https://science.nasa.gov/mission/hinode/",
+      "launch_date": "Sept. 23, 2006",
+      "year": 2006
     },
     {
       "name": "Hipparcos",
-      "source": "https://science.nasa.gov/mission/hipparcos/"
+      "source": "https://science.nasa.gov/mission/hipparcos/",
+      "launch_date": "Aug. 08, 1989",
+      "year": 1989
     },
     {
       "name": "Hiten / Hagoromo",
-      "source": "https://science.nasa.gov/mission/hiten-hagoromo/"
+      "source": "https://science.nasa.gov/mission/hiten-hagoromo/",
+      "launch_date": "Jan. 24, 1990",
+      "year": 1990
     },
     {
       "name": "Hitomi",
-      "source": "https://science.nasa.gov/mission/hitomi/"
+      "source": "https://science.nasa.gov/mission/hitomi/",
+      "launch_date": "Feb. 17, 2016",
+      "year": 2016
     },
     {
       "name": "HS3 (Hurricane and Severe Storm Sentinel)",
@@ -999,15 +1423,21 @@
     },
     {
       "name": "Hubble Space Telescope",
-      "source": "https://science.nasa.gov/mission/hubble/"
+      "source": "https://science.nasa.gov/mission/hubble/",
+      "launch_date": "APR 24, 1990",
+      "year": 1990
     },
     {
       "name": "Huygens",
-      "source": "https://science.nasa.gov/mission/cassini-huygens/"
+      "source": "https://science.nasa.gov/mission/cassini-huygens/",
+      "launch_date": "Oct. 15, 1997",
+      "year": 1997
     },
     {
       "name": "IBEX (Interstellar Boundary Explorer)",
-      "source": "https://science.nasa.gov/mission/ibex/"
+      "source": "https://science.nasa.gov/mission/ibex/",
+      "launch_date": "Oct. 19, 2008",
+      "year": 2008
     },
     {
       "name": "IceBridge",
@@ -1015,31 +1445,45 @@
     },
     {
       "name": "ICESat (Ice, Clouds and Land Elevation Satellite)",
-      "source": "https://science.nasa.gov/mission/icesat/"
+      "source": "https://science.nasa.gov/mission/icesat/",
+      "launch_date": "Jan. 13, 2003",
+      "year": 2003
     },
     {
       "name": "ICESat-2 (Ice, Clouds and Land Elevation Satellite 2)",
-      "source": "https://science.nasa.gov/mission/icesat-2/"
+      "source": "https://science.nasa.gov/mission/icesat-2/",
+      "launch_date": "Sept. 15, 2018",
+      "year": 2018
     },
     {
       "name": "ICON (Ionospheric Connection Explorer)",
-      "source": "https://science.nasa.gov/mission/icon/"
+      "source": "https://science.nasa.gov/mission/icon/",
+      "launch_date": "Oct. 10, 2019",
+      "year": 2019
     },
     {
       "name": "IEH-3 (International Extreme Ultraviolet Hitchhiker)",
-      "source": "https://science.nasa.gov/mission/ieh-3/"
+      "source": "https://science.nasa.gov/mission/ieh-3/",
+      "launch_date": "Oct. 29, 1998",
+      "year": 1998
     },
     {
       "name": "IMAGE (Imager for Magnetopause-to-Aurora Global Exploration)",
-      "source": "https://science.nasa.gov/mission/image/"
+      "source": "https://science.nasa.gov/mission/image/",
+      "launch_date": "March 25, 2000",
+      "year": 2000
     },
     {
       "name": "IMAP (Interstellar Mapping and Acceleration Probe)",
-      "source": "https://science.nasa.gov/mission/imap/"
+      "source": "https://science.nasa.gov/mission/imap/",
+      "launch_date": "Sept. 24, 2025",
+      "year": 2025
     },
     {
       "name": "IMP-8 (Interplanetary Monitoring Platform-8)",
-      "source": "https://science.nasa.gov/mission/imp-8/"
+      "source": "https://science.nasa.gov/mission/imp-8/",
+      "launch_date": "Oct. 26, 1973",
+      "year": 1973
     },
     {
       "name": "INCUS (Investigation of Convective Updrafts)",
@@ -1047,23 +1491,33 @@
     },
     {
       "name": "InSight (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport)",
-      "source": "https://science.nasa.gov/mission/insight/"
+      "source": "https://science.nasa.gov/mission/insight/",
+      "launch_date": "May 5, 2018",
+      "year": 2018
     },
     {
       "name": "INTEGRAL (International Gamma-ray Astrophysics Laboratory)",
-      "source": "https://science.nasa.gov/mission/integral/"
+      "source": "https://science.nasa.gov/mission/integral/",
+      "launch_date": "Oct. 17, 2002",
+      "year": 2002
     },
     {
       "name": "IRIS (Interface Region Imaging Spectrograph)",
-      "source": "https://science.nasa.gov/mission/iris/"
+      "source": "https://science.nasa.gov/mission/iris/",
+      "launch_date": "June 28, 2013",
+      "year": 2013
     },
     {
       "name": "ISEE-3/ICE (International Sun-Earth Explorer-3 / International Cometary Explorer)",
-      "source": "https://science.nasa.gov/mission/isee-3-ice/"
+      "source": "https://science.nasa.gov/mission/isee-3-ice/",
+      "launch_date": "Aug. 12, 1978",
+      "year": 1978
     },
     {
       "name": "ISO (Infrared Space Observatory)",
-      "source": "https://science.nasa.gov/mission/infrared-space-observatory/"
+      "source": "https://science.nasa.gov/mission/infrared-space-observatory/",
+      "launch_date": "Nov. 17, 1995",
+      "year": 1995
     },
     {
       "name": "ISRU (In-Situ Resource Utilization)",
@@ -1071,15 +1525,21 @@
     },
     {
       "name": "IUE (International Ultraviolet Explorer)",
-      "source": "https://science.nasa.gov/mission/iue/"
+      "source": "https://science.nasa.gov/mission/iue/",
+      "launch_date": "Jan. 26, 1978",
+      "year": 1978
     },
     {
       "name": "IXPE (Imaging X-ray Polarimetry Explorer)",
-      "source": "https://science.nasa.gov/mission/ixpe/"
+      "source": "https://science.nasa.gov/mission/ixpe/",
+      "launch_date": "Dec. 9, 2021",
+      "year": 2021
     },
     {
       "name": "James Webb Space Telescope",
-      "source": "https://science.nasa.gov/mission/webb/"
+      "source": "https://science.nasa.gov/mission/webb/",
+      "launch_date": "Dec 25, 2021",
+      "year": 2021
     },
     {
       "name": "Janus",
@@ -1087,11 +1547,15 @@
     },
     {
       "name": "Jason-1",
-      "source": "https://science.nasa.gov/mission/jason-1/"
+      "source": "https://science.nasa.gov/mission/jason-1/",
+      "launch_date": "Dec. 7, 2001",
+      "year": 2001
     },
     {
       "name": "Jason-3",
-      "source": "https://science.nasa.gov/mission/jason-3/"
+      "source": "https://science.nasa.gov/mission/jason-3/",
+      "launch_date": "Jan. 17, 2016",
+      "year": 2016
     },
     {
       "name": "Jason-CS (Jason Continuity of Service/Sentinel-6)",
@@ -1103,15 +1567,21 @@
     },
     {
       "name": "JUICE (Jupiter Icy Moons Explorer)",
-      "source": "https://science.nasa.gov/mission/juice/"
+      "source": "https://science.nasa.gov/mission/juice/",
+      "launch_date": "April 14, 2023",
+      "year": 2023
     },
     {
       "name": "Juno",
-      "source": "https://science.nasa.gov/mission/juno/"
+      "source": "https://science.nasa.gov/mission/juno/",
+      "launch_date": "Aug. 5, 2011",
+      "year": 2011
     },
     {
       "name": "Kaguya",
-      "source": "https://science.nasa.gov/mission/kaguya/"
+      "source": "https://science.nasa.gov/mission/kaguya/",
+      "launch_date": "Sept. 14, 2007",
+      "year": 2007
     },
     {
       "name": "KAO (Kuiper Airborne Observatory)",
@@ -1119,19 +1589,27 @@
     },
     {
       "name": "Keck Interferometer (KI)",
-      "source": "https://science.nasa.gov/mission/keck-interferometer/"
+      "source": "https://science.nasa.gov/mission/keck-interferometer/",
+      "launch_date": "2003",
+      "year": 2003
     },
     {
       "name": "Kepler / K2",
-      "source": "https://science.nasa.gov/mission/kepler/"
+      "source": "https://science.nasa.gov/mission/kepler/",
+      "launch_date": "March 6, 2009",
+      "year": 2009
     },
     {
       "name": "LADEE (Lunar Atmosphere and Dust Environment Explorer)",
-      "source": "https://science.nasa.gov/mission/ladee/"
+      "source": "https://science.nasa.gov/mission/ladee/",
+      "launch_date": "Sep. 6, 2013",
+      "year": 2013
     },
     {
       "name": "LAGEOS (LAser GEOdynamics Satellites 1 & 2)",
-      "source": "https://science.nasa.gov/mission/lageos/"
+      "source": "https://science.nasa.gov/mission/lageos/",
+      "launch_date": "May 4, 1976",
+      "year": 1976
     },
     {
       "name": "Landsat 7",
@@ -1143,23 +1621,33 @@
     },
     {
       "name": "Landsat 9",
-      "source": "https://science.nasa.gov/mission/landsat-9/"
+      "source": "https://science.nasa.gov/mission/landsat-9/",
+      "launch_date": "September 27, 2021",
+      "year": 2021
     },
     {
       "name": "Laser Communications Relay Demonstration",
-      "source": "https://www.nasa.gov/mission/laser-communications-relay/"
+      "source": "https://www.nasa.gov/mission/laser-communications-relay/",
+      "launch_date": "Dec. 7, 2021",
+      "year": 2021
     },
     {
       "name": "LBTI (Large Binocular Telescope Interferometer)",
-      "source": "https://science.nasa.gov/mission/lbti/"
+      "source": "https://science.nasa.gov/mission/lbti/",
+      "launch_date": "Dec. 6, 2010",
+      "year": 2010
     },
     {
       "name": "LCROSS (Lunar Crater Observation and Sensing Satellite)",
-      "source": "https://science.nasa.gov/mission/lcross/"
+      "source": "https://science.nasa.gov/mission/lcross/",
+      "launch_date": "June 18, 2009",
+      "year": 2009
     },
     {
       "name": "LEIA (Lunar Explorer Instrument for space biology Applications)",
-      "source": "https://science.nasa.gov/mission/leia/"
+      "source": "https://science.nasa.gov/mission/leia/",
+      "launch_date": "2027",
+      "year": 2027
     },
     {
       "name": "Leonid MAC",
@@ -1171,7 +1659,9 @@
     },
     {
       "name": "LIS (Lightning Imaging Sensor)",
-      "source": "https://science.nasa.gov/mission/lis/"
+      "source": "https://science.nasa.gov/mission/lis/",
+      "launch_date": "Feb. 19, 2017",
+      "year": 2017
     },
     {
       "name": "LISA (Laser Interferometer Space Antenna)",
@@ -1179,51 +1669,75 @@
     },
     {
       "name": "LISA Pathfinder (Laser Interferometer Space Antenna)",
-      "source": "https://science.nasa.gov/mission/lisa-pathfinder/"
+      "source": "https://science.nasa.gov/mission/lisa-pathfinder/",
+      "launch_date": "Dec. 3, 2015",
+      "year": 2015
     },
     {
       "name": "LRO (Lunar Reconnaissance Orbiter)",
-      "source": "https://science.nasa.gov/mission/lro/"
+      "source": "https://science.nasa.gov/mission/lro/",
+      "launch_date": "June 18, 2009",
+      "year": 2009
     },
     {
       "name": "Lucy",
-      "source": "https://science.nasa.gov/mission/lucy/"
+      "source": "https://science.nasa.gov/mission/lucy/",
+      "launch_date": "Oct. 16, 2021",
+      "year": 2021
     },
     {
       "name": "LunaH-Map (Lunar Polar Hydrogen Mapper)",
-      "source": "https://science.nasa.gov/mission/lunah-map/"
+      "source": "https://science.nasa.gov/mission/lunah-map/",
+      "launch_date": "Nov. 16, 2022",
+      "year": 2022
     },
     {
       "name": "Lunar Orbiter 1",
-      "source": "https://www.nasa.gov/mission/lunar-orbiter-1/"
+      "source": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+      "launch_date": "Aug. 10, 1966",
+      "year": 1966
     },
     {
       "name": "Lunar Orbiter 2",
-      "source": "https://www.nasa.gov/mission/lunar-orbiter-2/"
+      "source": "https://www.nasa.gov/mission/lunar-orbiter-2/",
+      "launch_date": "Nov. 6, 1966",
+      "year": 1966
     },
     {
       "name": "Lunar Orbiter 3",
-      "source": "https://www.nasa.gov/mission/lunar-orbiter-3/"
+      "source": "https://www.nasa.gov/mission/lunar-orbiter-3/",
+      "launch_date": "Feb. 5, 1967",
+      "year": 1967
     },
     {
       "name": "Lunar Orbiter 4",
-      "source": "https://www.nasa.gov/mission/lunar-orbiter-4/"
+      "source": "https://www.nasa.gov/mission/lunar-orbiter-4/",
+      "launch_date": "May 4, 1967",
+      "year": 1967
     },
     {
       "name": "Lunar Orbiter 5",
-      "source": "https://www.nasa.gov/mission/lunar-orbiter-5/"
+      "source": "https://www.nasa.gov/mission/lunar-orbiter-5/",
+      "launch_date": "Aug. 1, 1967",
+      "year": 1967
     },
     {
       "name": "Lunar Prospector",
-      "source": "https://science.nasa.gov/mission/lunar-prospector/"
+      "source": "https://science.nasa.gov/mission/lunar-prospector/",
+      "launch_date": "Jan. 6, 1998",
+      "year": 1998
     },
     {
       "name": "Lunar Trailblazer",
-      "source": "https://science.nasa.gov/mission/lunar-trailblazer/"
+      "source": "https://science.nasa.gov/mission/lunar-trailblazer/",
+      "launch_date": "Feb. 26, 2025",
+      "year": 2025
     },
     {
       "name": "Magellan",
-      "source": "https://science.nasa.gov/mission/magellan/"
+      "source": "https://science.nasa.gov/mission/magellan/",
+      "launch_date": "May 4, 1989",
+      "year": 1989
     },
     {
       "name": "MAIA (Multi-Angle Imager for Aerosols)",
@@ -1231,31 +1745,45 @@
     },
     {
       "name": "MarCO (Mars Cube One)",
-      "source": "https://science.nasa.gov/mission/marco/"
+      "source": "https://science.nasa.gov/mission/marco/",
+      "launch_date": "May 5, 2018",
+      "year": 2018
     },
     {
       "name": "Mariner 1",
-      "source": "https://science.nasa.gov/mission/mariner-1/"
+      "source": "https://science.nasa.gov/mission/mariner-1/",
+      "launch_date": "July 22, 1962",
+      "year": 1962
     },
     {
       "name": "Mariner 10",
-      "source": "https://science.nasa.gov/mission/mariner-10/"
+      "source": "https://science.nasa.gov/mission/mariner-10/",
+      "launch_date": "Nov. 3, 1973",
+      "year": 1973
     },
     {
       "name": "Mariner 2",
-      "source": "https://science.nasa.gov/mission/mariner-2/"
+      "source": "https://science.nasa.gov/mission/mariner-2/",
+      "launch_date": "Aug. 27, 1962",
+      "year": 1962
     },
     {
       "name": "Mariner 3",
-      "source": "https://science.nasa.gov/mission/mariner-3/"
+      "source": "https://science.nasa.gov/mission/mariner-3/",
+      "launch_date": "Nov. 5, 1964",
+      "year": 1964
     },
     {
       "name": "Mariner 4",
-      "source": "https://science.nasa.gov/mission/mariner-4/"
+      "source": "https://science.nasa.gov/mission/mariner-4/",
+      "launch_date": "Nov. 28, 1964",
+      "year": 1964
     },
     {
       "name": "Mariner 5",
-      "source": "https://science.nasa.gov/mission/mariner-5/"
+      "source": "https://science.nasa.gov/mission/mariner-5/",
+      "launch_date": "June 14, 1967",
+      "year": 1967
     },
     {
       "name": "Mariner 6",
@@ -1263,15 +1791,21 @@
     },
     {
       "name": "Mariner 7",
-      "source": "https://science.nasa.gov/mission/mariner-7/"
+      "source": "https://science.nasa.gov/mission/mariner-7/",
+      "launch_date": "March 27, 1969",
+      "year": 1969
     },
     {
       "name": "Mariner 8",
-      "source": "https://science.nasa.gov/mission/mariner-8/"
+      "source": "https://science.nasa.gov/mission/mariner-8/",
+      "launch_date": "May 9, 1971",
+      "year": 1971
     },
     {
       "name": "Mariner 9",
-      "source": "https://science.nasa.gov/mission/mariner-9/"
+      "source": "https://science.nasa.gov/mission/mariner-9/",
+      "launch_date": "May 30, 1971",
+      "year": 1971
     },
     {
       "name": "Mars 2020 Perseverance Rover",
@@ -1279,51 +1813,75 @@
     },
     {
       "name": "Mars Climate Orbiter",
-      "source": "https://science.nasa.gov/mission/mars-climate-orbiter/"
+      "source": "https://science.nasa.gov/mission/mars-climate-orbiter/",
+      "launch_date": "Dec. 11, 1998",
+      "year": 1998
     },
     {
       "name": "Mars Exploration Rover \u2014 Opportunity (MER)",
-      "source": "https://science.nasa.gov/mission/mer-opportunity/"
+      "source": "https://science.nasa.gov/mission/mer-opportunity/",
+      "launch_date": "July 7, 2003",
+      "year": 2003
     },
     {
       "name": "Mars Exploration Rover \u2014 Spirit (MER)",
-      "source": "https://science.nasa.gov/mission/mer-spirit/"
+      "source": "https://science.nasa.gov/mission/mer-spirit/",
+      "launch_date": "June 10, 2003",
+      "year": 2003
     },
     {
       "name": "Mars Express",
-      "source": "https://science.nasa.gov/mission/mars-express/"
+      "source": "https://science.nasa.gov/mission/mars-express/",
+      "launch_date": "June 2, 2003",
+      "year": 2003
     },
     {
       "name": "Mars Global Surveyor",
-      "source": "https://science.nasa.gov/mission/mars-global-surveyor/"
+      "source": "https://science.nasa.gov/mission/mars-global-surveyor/",
+      "launch_date": "Nov. 7, 1996",
+      "year": 1996
     },
     {
       "name": "Mars Observer",
-      "source": "https://science.nasa.gov/mission/mars-observer/"
+      "source": "https://science.nasa.gov/mission/mars-observer/",
+      "launch_date": "Sept. 25, 1992",
+      "year": 1992
     },
     {
       "name": "Mars Odyssey",
-      "source": "https://science.nasa.gov/mission/odyssey/"
+      "source": "https://science.nasa.gov/mission/odyssey/",
+      "launch_date": "April 7, 2001",
+      "year": 2001
     },
     {
       "name": "Mars Orbiter Mission",
-      "source": "https://science.nasa.gov/mission/mom/"
+      "source": "https://science.nasa.gov/mission/mom/",
+      "launch_date": "Nov. 5, 2013",
+      "year": 2013
     },
     {
       "name": "Mars Pathfinder",
-      "source": "https://science.nasa.gov/mission/mars-pathfinder/"
+      "source": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "launch_date": "Dec. 4, 1996",
+      "year": 1996
     },
     {
       "name": "Mars Phoenix Lander",
-      "source": "https://science.nasa.gov/mission/phoenix/"
+      "source": "https://science.nasa.gov/mission/phoenix/",
+      "launch_date": "Aug. 4, 2007",
+      "year": 2007
     },
     {
       "name": "Mars Polar Lander / Deep Space 2",
-      "source": "https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/"
+      "source": "https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/",
+      "launch_date": "Jan. 3, 1999",
+      "year": 1999
     },
     {
       "name": "Mars Reconnaissance Orbiter",
-      "source": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/"
+      "source": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
+      "launch_date": "Aug. 12, 2005",
+      "year": 2005
     },
     {
       "name": "Mars Sample Return",
@@ -1331,11 +1889,15 @@
     },
     {
       "name": "MAVEN (Mars Atmosphere and Volatile EvolutioN)",
-      "source": "https://science.nasa.gov/mission/maven/"
+      "source": "https://science.nasa.gov/mission/maven/",
+      "launch_date": "Nov. 18, 2013",
+      "year": 2013
     },
     {
       "name": "MESSENGER (MErcury Surface, Space ENvironment, GEochemistry, and Ranging)",
-      "source": "https://science.nasa.gov/mission/messenger/"
+      "source": "https://science.nasa.gov/mission/messenger/",
+      "launch_date": "Aug. 2, 2004",
+      "year": 2004
     },
     {
       "name": "MetOP A/B/C (Meteorological Operational satellite)",
@@ -1343,7 +1905,9 @@
     },
     {
       "name": "Micro-10",
-      "source": "https://science.nasa.gov/mission/micro-10/"
+      "source": "https://science.nasa.gov/mission/micro-10/",
+      "launch_date": "April 8, 2016",
+      "year": 2016
     },
     {
       "name": "Mini-RF",
@@ -1351,15 +1915,21 @@
     },
     {
       "name": "MinXSS-3 (Miniature X-ray Solar Spectrometer (AKA: INSPIRESat-1 [International Satellite Program in Research and Education Sat-1]))",
-      "source": "https://science.nasa.gov/mission/minxss/"
+      "source": "https://science.nasa.gov/mission/minxss/",
+      "launch_date": "Feb. 13, 2022",
+      "year": 2022
     },
     {
       "name": "MMS (Magnetospheric Multiscale)",
-      "source": "https://science.nasa.gov/mission/mms/"
+      "source": "https://science.nasa.gov/mission/mms/",
+      "launch_date": "March 12, 2015",
+      "year": 2015
     },
     {
       "name": "MMX (Martian Moons eXploration)",
-      "source": "https://science.nasa.gov/mission/mmx/"
+      "source": "https://science.nasa.gov/mission/mmx/",
+      "launch_date": "Oct. 20, 2026",
+      "year": 2026
     },
     {
       "name": "MOMS (Modular Optoelectronic Multispectral Scanner)",
@@ -1367,39 +1937,57 @@
     },
     {
       "name": "MOS (Marine Observation Satellite)",
-      "source": "https://science.nasa.gov/mission/mos/"
+      "source": "https://science.nasa.gov/mission/mos/",
+      "launch_date": "Feb. 19, 1987",
+      "year": 1987
     },
     {
       "name": "MSRR (Materials Science Research Rack)",
-      "source": "https://science.nasa.gov/mission/msrr/"
+      "source": "https://science.nasa.gov/mission/msrr/",
+      "launch_date": "Aug. 28, 2009",
+      "year": 2009
     },
     {
       "name": "Multi-Spectral Fluorescence Imaging System for Studying Gene Expression on ISS",
-      "source": "https://science.nasa.gov/mission/spectrum/"
+      "source": "https://science.nasa.gov/mission/spectrum/",
+      "launch_date": "Nov. 2, 2019",
+      "year": 2019
     },
     {
       "name": "MUSE (Multi-slit Solar Explorer)",
-      "source": "https://science.nasa.gov/mission/muse/"
+      "source": "https://science.nasa.gov/mission/muse/",
+      "launch_date": "2027",
+      "year": 2027
     },
     {
       "name": "NAAMES (North Atlantic Aerosols and Marine Ecosystems Study)",
-      "source": "https://science.nasa.gov/mission/naames/"
+      "source": "https://science.nasa.gov/mission/naames/",
+      "launch_date": "Nov. 5, 2015",
+      "year": 2015
     },
     {
       "name": "Nancy Grace Roman Space Telescope",
-      "source": "https://science.nasa.gov/mission/roman-space-telescope/"
+      "source": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "launch_date": "August 30, 2026",
+      "year": 2026
     },
     {
       "name": "NanoSail-D",
-      "source": "https://science.nasa.gov/mission/nanosail-d/"
+      "source": "https://science.nasa.gov/mission/nanosail-d/",
+      "launch_date": "Nov. 19, 2010",
+      "year": 2010
     },
     {
       "name": "NEA Scout (Near Earth Asteroid Scout)",
-      "source": "https://science.nasa.gov/mission/nea-scout/"
+      "source": "https://science.nasa.gov/mission/nea-scout/",
+      "launch_date": "Nov. 16, 2022",
+      "year": 2022
     },
     {
       "name": "NEAR Shoemaker",
-      "source": "https://science.nasa.gov/mission/near-shoemaker/"
+      "source": "https://science.nasa.gov/mission/near-shoemaker/",
+      "launch_date": "Feb. 17, 1996",
+      "year": 1996
     },
     {
       "name": "NEEMO (NASA Extreme Environment Mission Operations)",
@@ -1411,7 +1999,9 @@
     },
     {
       "name": "New Horizons",
-      "source": "https://science.nasa.gov/mission/new-horizons/"
+      "source": "https://science.nasa.gov/mission/new-horizons/",
+      "launch_date": "Jan. 19, 2006",
+      "year": 2006
     },
     {
       "name": "NICER (Neutron star Interior Composition Explorer)",
@@ -1423,39 +2013,57 @@
     },
     {
       "name": "NISAR (NASA-ISRO Synthetic Aperture Radar)",
-      "source": "https://science.nasa.gov/mission/nisar/"
+      "source": "https://science.nasa.gov/mission/nisar/",
+      "launch_date": "July 30, 2025",
+      "year": 2025
     },
     {
       "name": "Nozomi",
-      "source": "https://science.nasa.gov/mission/nozomi/"
+      "source": "https://science.nasa.gov/mission/nozomi/",
+      "launch_date": "July 3, 1998",
+      "year": 1998
     },
     {
       "name": "NuSTAR (Nuclear Spectroscopic Telescope Array)",
-      "source": "https://science.nasa.gov/mission/nustar/"
+      "source": "https://science.nasa.gov/mission/nustar/",
+      "launch_date": "June 13, 2012",
+      "year": 2012
     },
     {
       "name": "O/OREOS (Organism/Organic Exposure to Orbital Stresses)",
-      "source": "https://science.nasa.gov/mission/o-oreos/"
+      "source": "https://science.nasa.gov/mission/o-oreos/",
+      "launch_date": "Nov. 19, 2010",
+      "year": 2010
     },
     {
       "name": "OAO (Orbiting Astronomical Observatory)",
-      "source": "https://science.nasa.gov/mission/oao/"
+      "source": "https://science.nasa.gov/mission/oao/",
+      "launch_date": "April 8, 1966",
+      "year": 1966
     },
     {
       "name": "OCO (Orbiting Carbon Observatory)",
-      "source": "https://science.nasa.gov/mission/oco/"
+      "source": "https://science.nasa.gov/mission/oco/",
+      "launch_date": "Feb. 24, 2009",
+      "year": 2009
     },
     {
       "name": "OCO-2 (Orbiting Carbon Observatory-2)",
-      "source": "https://science.nasa.gov/mission/oco-2/"
+      "source": "https://science.nasa.gov/mission/oco-2/",
+      "launch_date": "July 2, 2014",
+      "year": 2014
     },
     {
       "name": "OCO-3 (Orbiting Carbon Observatory-3)",
-      "source": "https://science.nasa.gov/mission/oco-3/"
+      "source": "https://science.nasa.gov/mission/oco-3/",
+      "launch_date": "May 3, 2019",
+      "year": 2019
     },
     {
       "name": "OMG (Oceans Melting Greenland)",
-      "source": "https://science.nasa.gov/mission/omg/"
+      "source": "https://science.nasa.gov/mission/omg/",
+      "launch_date": "March 24, 2016",
+      "year": 2016
     },
     {
       "name": "OMPS (Ozone Mapping and Profiler Suite)",
@@ -1467,11 +2075,15 @@
     },
     {
       "name": "ORACLES (ObseRvations of Aerosols above CLouds and their IntEractionS)",
-      "source": "https://science.nasa.gov/mission/oracles/"
+      "source": "https://science.nasa.gov/mission/oracles/",
+      "launch_date": "Aug. 19, 2016",
+      "year": 2016
     },
     {
       "name": "ORFEUS-SPAS II (Orbiting and Retrievable Far and Extreme Ultraviolet Spectrometer-Shuttle PAllet Satellite II)",
-      "source": "https://science.nasa.gov/mission/orfeus-spas-2/"
+      "source": "https://science.nasa.gov/mission/orfeus-spas-2/",
+      "launch_date": "Nov. 20, 1996",
+      "year": 1996
     },
     {
       "name": "OSIRIS-Rex",
@@ -1479,79 +2091,117 @@
     },
     {
       "name": "OSTM / Jason-2 (Ocean Surface Topography Mission)",
-      "source": "https://science.nasa.gov/mission/jason-2-ostm/"
+      "source": "https://science.nasa.gov/mission/jason-2-ostm/",
+      "launch_date": "June 20, 2008",
+      "year": 2008
     },
     {
       "name": "PACE (Plankton, Aerosol, Cloud, Ocean Ecosystem)",
-      "source": "https://science.nasa.gov/mission/pace/"
+      "source": "https://science.nasa.gov/mission/pace/",
+      "launch_date": "2024",
+      "year": 2024
     },
     {
       "name": "Parker Solar Probe",
-      "source": "https://science.nasa.gov/mission/parker-solar-probe/"
+      "source": "https://science.nasa.gov/mission/parker-solar-probe/",
+      "launch_date": "Aug. 12, 2018",
+      "year": 2018
     },
     {
       "name": "PFMI (Pore Formation and Mobility Investigation)",
-      "source": "https://science.nasa.gov/mission/pfmi/"
+      "source": "https://science.nasa.gov/mission/pfmi/",
+      "launch_date": "June 5, 2002",
+      "year": 2002
     },
     {
       "name": "PharmaSat",
-      "source": "https://science.nasa.gov/mission/pharmasat/"
+      "source": "https://science.nasa.gov/mission/pharmasat/",
+      "launch_date": "May 19, 2009",
+      "year": 2009
     },
     {
       "name": "Pioneer 10",
-      "source": "https://science.nasa.gov/mission/pioneer-10/"
+      "source": "https://science.nasa.gov/mission/pioneer-10/",
+      "launch_date": "March 2, 1972",
+      "year": 1972
     },
     {
       "name": "Pioneer 11",
-      "source": "https://science.nasa.gov/mission/pioneer-11/"
+      "source": "https://science.nasa.gov/mission/pioneer-11/",
+      "launch_date": "April 6, 1973",
+      "year": 1973
     },
     {
       "name": "Pioneer 2",
-      "source": "https://science.nasa.gov/mission/pioneer-2/"
+      "source": "https://science.nasa.gov/mission/pioneer-2/",
+      "launch_date": "Nov. 8, 1958",
+      "year": 1958
     },
     {
       "name": "Pioneer 3",
-      "source": "https://science.nasa.gov/mission/pioneer-3/"
+      "source": "https://science.nasa.gov/mission/pioneer-3/",
+      "launch_date": "Dec. 6, 1958",
+      "year": 1958
     },
     {
       "name": "Pioneer 4",
-      "source": "https://science.nasa.gov/mission/pioneer-4/"
+      "source": "https://science.nasa.gov/mission/pioneer-4/",
+      "launch_date": "Mar. 3, 1959",
+      "year": 1959
     },
     {
       "name": "Pioneer 5",
-      "source": "https://science.nasa.gov/mission/pioneer-5/"
+      "source": "https://science.nasa.gov/mission/pioneer-5/",
+      "launch_date": "March 11, 1960",
+      "year": 1960
     },
     {
       "name": "Pioneer 6",
-      "source": "https://science.nasa.gov/mission/pioneer-6/"
+      "source": "https://science.nasa.gov/mission/pioneer-6/",
+      "launch_date": "Dec. 16, 1965",
+      "year": 1965
     },
     {
       "name": "Pioneer 7",
-      "source": "https://science.nasa.gov/mission/pioneer-7/"
+      "source": "https://science.nasa.gov/mission/pioneer-7/",
+      "launch_date": "Aug. 17, 1966",
+      "year": 1966
     },
     {
       "name": "Pioneer 8",
-      "source": "https://science.nasa.gov/mission/pioneer-8/"
+      "source": "https://science.nasa.gov/mission/pioneer-8/",
+      "launch_date": "Dec. 13, 1967",
+      "year": 1967
     },
     {
       "name": "Pioneer 9",
-      "source": "https://science.nasa.gov/mission/pioneer-9/"
+      "source": "https://science.nasa.gov/mission/pioneer-9/",
+      "launch_date": "Nov. 8, 1968",
+      "year": 1968
     },
     {
       "name": "Pioneer Venus 1",
-      "source": "https://science.nasa.gov/mission/pioneer-venus-1/"
+      "source": "https://science.nasa.gov/mission/pioneer-venus-1/",
+      "launch_date": "May 20, 1978",
+      "year": 1978
     },
     {
       "name": "Pioneer Venus 2",
-      "source": "https://science.nasa.gov/mission/pioneer-venus-2/"
+      "source": "https://science.nasa.gov/mission/pioneer-venus-2/",
+      "launch_date": "Aug. 8, 1978",
+      "year": 1978
     },
     {
       "name": "Pioneer-E",
-      "source": "https://science.nasa.gov/mission/pioneer-e/"
+      "source": "https://science.nasa.gov/mission/pioneer-e/",
+      "launch_date": "Aug. 27, 1969",
+      "year": 1969
     },
     {
       "name": "Planck",
-      "source": "https://science.nasa.gov/mission/planck/"
+      "source": "https://science.nasa.gov/mission/planck/",
+      "launch_date": "May 14, 2009",
+      "year": 2009
     },
     {
       "name": "Plasma Kristall-4",
@@ -1559,7 +2209,9 @@
     },
     {
       "name": "Polar",
-      "source": "https://science.nasa.gov/mission/polar/"
+      "source": "https://science.nasa.gov/mission/polar/",
+      "launch_date": "Feb. 24, 1996",
+      "year": 1996
     },
     {
       "name": "PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment)",
@@ -1567,7 +2219,9 @@
     },
     {
       "name": "PRESat (PharmaSat Risk Evaluation Satellite)",
-      "source": "https://science.nasa.gov/mission/presat/"
+      "source": "https://science.nasa.gov/mission/presat/",
+      "launch_date": "Aug. 2, 2008",
+      "year": 2008
     },
     {
       "name": "Psyche",
@@ -1575,11 +2229,15 @@
     },
     {
       "name": "PUNCH (Polarimeter to Unify the Corona and Heliosphere)",
-      "source": "https://science.nasa.gov/mission/punch/"
+      "source": "https://science.nasa.gov/mission/punch/",
+      "launch_date": "March 11, 2025",
+      "year": 2025
     },
     {
       "name": "Q-PACE (CubeSat Particle Aggregation and Collision Experiment)",
-      "source": "https://science.nasa.gov/mission/q-pace/"
+      "source": "https://science.nasa.gov/mission/q-pace/",
+      "launch_date": "Jan. 17, 2021",
+      "year": 2021
     },
     {
       "name": "Quesst (X-59)",
@@ -1587,87 +2245,129 @@
     },
     {
       "name": "QuikSCAT (Quick Scatterometer)",
-      "source": "https://science.nasa.gov/mission/quikscat/"
+      "source": "https://science.nasa.gov/mission/quikscat/",
+      "launch_date": "June 19, 1999",
+      "year": 1999
     },
     {
       "name": "RADARSAT-1 (Radar Satellite-1)",
-      "source": "https://science.nasa.gov/mission/radarsat-1/"
+      "source": "https://science.nasa.gov/mission/radarsat-1/",
+      "launch_date": "Nov. 4, 1995",
+      "year": 1995
     },
     {
       "name": "Ranger 1",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-1/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-1/",
+      "launch_date": "Aug. 23, 1961",
+      "year": 1961
     },
     {
       "name": "Ranger 2",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-2/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-2/",
+      "launch_date": "Nov. 18, 1961",
+      "year": 1961
     },
     {
       "name": "Ranger 3",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-3/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-3/",
+      "launch_date": "Jan. 26, 1962",
+      "year": 1962
     },
     {
       "name": "Ranger 4",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-4/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-4/",
+      "launch_date": "April 23, 1962",
+      "year": 1962
     },
     {
       "name": "Ranger 5",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-5/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-5/",
+      "launch_date": "Oct. 18, 1962",
+      "year": 1962
     },
     {
       "name": "Ranger 6",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-6/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-6/",
+      "launch_date": "Jan. 30, 1964",
+      "year": 1964
     },
     {
       "name": "Ranger 7",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-7/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-7/",
+      "launch_date": "July 28, 1964",
+      "year": 1964
     },
     {
       "name": "Ranger 8",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-8/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-8/",
+      "launch_date": "Feb. 17, 1965",
+      "year": 1965
     },
     {
       "name": "Ranger 9",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-9/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/ranger-9/",
+      "launch_date": "March 21, 1965",
+      "year": 1965
     },
     {
       "name": "RapidScat (ISS-RapidScat)",
-      "source": "https://science.nasa.gov/mission/iss-rapidscat/"
+      "source": "https://science.nasa.gov/mission/iss-rapidscat/",
+      "launch_date": "Sept. 20, 2014",
+      "year": 2014
     },
     {
       "name": "Redstone 3 (Freedom 7)",
-      "source": "https://www.nasa.gov/mission/mercury-redstone-3-freedom-7/"
+      "source": "https://www.nasa.gov/mission/mercury-redstone-3-freedom-7/",
+      "launch_date": "May 5, 1961",
+      "year": 1961
     },
     {
       "name": "Redstone 4 (Liberty Bell 7)",
-      "source": "https://www.nasa.gov/mission/mercury-redstone-4-liberty-bell-7/"
+      "source": "https://www.nasa.gov/mission/mercury-redstone-4-liberty-bell-7/",
+      "launch_date": "July 21, 1961",
+      "year": 1961
     },
     {
       "name": "RHESSI (Reuven Ramaty High Energy Solar Spectroscopic Imager)",
-      "source": "https://science.nasa.gov/mission/rhessi/"
+      "source": "https://science.nasa.gov/mission/rhessi/",
+      "launch_date": "Feb. 5, 2002",
+      "year": 2002
     },
     {
       "name": "Rodent Research",
-      "source": "https://science.nasa.gov/mission/rodent-research/"
+      "source": "https://science.nasa.gov/mission/rodent-research/",
+      "launch_date": "2014",
+      "year": 2014
     },
     {
       "name": "ROSAT (ROentgen SATellite)",
-      "source": "https://science.nasa.gov/mission/rosat/"
+      "source": "https://science.nasa.gov/mission/rosat/",
+      "launch_date": "June 1, 1990",
+      "year": 1990
     },
     {
       "name": "Rosetta-Philae",
-      "source": "https://science.nasa.gov/mission/rosetta-philae/"
+      "source": "https://science.nasa.gov/mission/rosetta-philae/",
+      "launch_date": "March 2, 2004",
+      "year": 2004
     },
     {
       "name": "RXTE (Rossi X-ray Timing Explorer)",
-      "source": "https://science.nasa.gov/mission/rxte/"
+      "source": "https://science.nasa.gov/mission/rxte/",
+      "launch_date": "Dec. 30, 1995",
+      "year": 1995
     },
     {
       "name": "SAC-B (Satelite de Aplicaciones Cient\u00edficas)",
-      "source": "https://science.nasa.gov/mission/sac-b/"
+      "source": "https://science.nasa.gov/mission/sac-b/",
+      "launch_date": "Nov. 4, 1996",
+      "year": 1996
     },
     {
       "name": "SAGE III (Stratospheric Aerosol and Gas Experiment III)",
-      "source": "https://science.nasa.gov/mission/sage-3-iss/"
+      "source": "https://science.nasa.gov/mission/sage-3-iss/",
+      "launch_date": "Feb. 19, 2017",
+      "year": 2017
     },
     {
       "name": "SAGE-III (SAGE-III Meteor 3M)",
@@ -1675,15 +2375,21 @@
     },
     {
       "name": "Sakigake",
-      "source": "https://science.nasa.gov/mission/sakigake/"
+      "source": "https://science.nasa.gov/mission/sakigake/",
+      "launch_date": "Jan. 7, 1985",
+      "year": 1985
     },
     {
       "name": "SAMPEX (Solar, Anomalous, and Magnetospheric Particle Explorer)",
-      "source": "https://science.nasa.gov/mission/sampex/"
+      "source": "https://science.nasa.gov/mission/sampex/",
+      "launch_date": "July 3, 1992",
+      "year": 1992
     },
     {
       "name": "SDO (Solar Dynamics Observatory)",
-      "source": "https://science.nasa.gov/mission/sdo/"
+      "source": "https://science.nasa.gov/mission/sdo/",
+      "launch_date": "Feb. 11, 2010",
+      "year": 2010
     },
     {
       "name": "SEAC4RS (Studies of Emissions, Atmospheric Composition, Clouds and Climate Coupling by Regional Surveys)",
@@ -1691,7 +2397,9 @@
     },
     {
       "name": "Seasat 1",
-      "source": "https://science.nasa.gov/mission/seasat/"
+      "source": "https://science.nasa.gov/mission/seasat/",
+      "launch_date": "June 26, 1978",
+      "year": 1978
     },
     {
       "name": "SeaWiFS (Sea-viewing Wide Field-of-view Sensor)",
@@ -1699,35 +2407,51 @@
     },
     {
       "name": "SeaWinds on ADEOS II (SeaWinds on the Advanced Earth Observing Satellite II (ADEOS II))",
-      "source": "https://science.nasa.gov/mission/seawinds/"
+      "source": "https://science.nasa.gov/mission/seawinds/",
+      "launch_date": "June 19, 1999",
+      "year": 1999
     },
     {
       "name": "SET-1 (Space Environment Testbeds 1)",
-      "source": "https://science.nasa.gov/mission/set-1/"
+      "source": "https://science.nasa.gov/mission/set-1/",
+      "launch_date": "June 25, 2019",
+      "year": 2019
     },
     {
       "name": "Shuttle Imaging Radar (Shuttle Imaging Radar-C / X-Band Synthetic Aperture Radar)",
-      "source": "https://science.nasa.gov/mission/sir-c-x-sar/"
+      "source": "https://science.nasa.gov/mission/sir-c-x-sar/",
+      "launch_date": "April 9, 1994",
+      "year": 1994
     },
     {
       "name": "Skylab",
-      "source": "https://www.nasa.gov/mission/skylab/"
+      "source": "https://www.nasa.gov/mission/skylab/",
+      "launch_date": "May 14, 1973",
+      "year": 1973
     },
     {
       "name": "SMAP (Soil Moisture Active Passive)",
-      "source": "https://science.nasa.gov/mission/smap/"
+      "source": "https://science.nasa.gov/mission/smap/",
+      "launch_date": "Jan. 31, 2015",
+      "year": 2015
     },
     {
       "name": "SMART-1 (Small Missions for Advanced Research in Technology)",
-      "source": "https://science.nasa.gov/mission/smart-1/"
+      "source": "https://science.nasa.gov/mission/smart-1/",
+      "launch_date": "Sept. 27, 2003",
+      "year": 2003
     },
     {
       "name": "SMS (Synchronous Meteorological Satellite)",
-      "source": "https://science.nasa.gov/mission/sms/"
+      "source": "https://science.nasa.gov/mission/sms/",
+      "launch_date": "May 17, 1974",
+      "year": 1974
     },
     {
       "name": "SNOE (Student Nitric Oxide Explorer)",
-      "source": "https://science.nasa.gov/mission/snoe/"
+      "source": "https://science.nasa.gov/mission/snoe/",
+      "launch_date": "Feb. 26, 1998",
+      "year": 1998
     },
     {
       "name": "SOFIA (Stratospheric Observatory for Infrared Astronomy)",
@@ -1735,39 +2459,57 @@
     },
     {
       "name": "SoFIE (Solid Fuel Ignition and Extinction)",
-      "source": "https://science.nasa.gov/mission/sofie/"
+      "source": "https://science.nasa.gov/mission/sofie/",
+      "launch_date": "July 5, 2022",
+      "year": 2022
     },
     {
       "name": "SOHO (Solar and Heliospheric Observatory)",
-      "source": "https://science.nasa.gov/mission/soho/"
+      "source": "https://science.nasa.gov/mission/soho/",
+      "launch_date": "Dec. 2, 1995",
+      "year": 1995
     },
     {
       "name": "Solar Orbiter",
-      "source": "https://science.nasa.gov/mission/solar-orbiter/"
+      "source": "https://science.nasa.gov/mission/solar-orbiter/",
+      "launch_date": "Feb. 9, 2020",
+      "year": 2020
     },
     {
       "name": "SORCE (Solar Radiation and Climate Experiment)",
-      "source": "https://science.nasa.gov/mission/sorce/"
+      "source": "https://science.nasa.gov/mission/sorce/",
+      "launch_date": "Jan. 25, 2003",
+      "year": 2003
     },
     {
       "name": "SORTIE (Scintillation Observations & Response of the Ionosphere to Electrodynamics)",
-      "source": "https://science.nasa.gov/mission/sortie/"
+      "source": "https://science.nasa.gov/mission/sortie/",
+      "launch_date": "Dec. 5, 2019",
+      "year": 2019
     },
     {
       "name": "Spartan 201",
-      "source": "https://science.nasa.gov/mission/spartan/"
+      "source": "https://science.nasa.gov/mission/spartan/",
+      "launch_date": "Sept. 13, 1994",
+      "year": 1994
     },
     {
       "name": "Spitzer Space Telescope",
-      "source": "https://science.nasa.gov/mission/spitzer/"
+      "source": "https://science.nasa.gov/mission/spitzer/",
+      "launch_date": "Aug. 25, 2003",
+      "year": 2003
     },
     {
       "name": "SRTM (Shuttle Radar Topography Mission)",
-      "source": "https://science.nasa.gov/mission/srtm/"
+      "source": "https://science.nasa.gov/mission/srtm/",
+      "launch_date": "Feb. 11, 2000",
+      "year": 2000
     },
     {
       "name": "ST5",
-      "source": "https://science.nasa.gov/mission/space-technology-5/"
+      "source": "https://science.nasa.gov/mission/space-technology-5/",
+      "launch_date": "March 22, 2006",
+      "year": 2006
     },
     {
       "name": "ST6",
@@ -1775,367 +2517,549 @@
     },
     {
       "name": "Stardust / Stardust NExT",
-      "source": "https://science.nasa.gov/mission/stardust/"
+      "source": "https://science.nasa.gov/mission/stardust/",
+      "launch_date": "Feb. 7, 1999",
+      "year": 1999
     },
     {
       "name": "STEREO A & B (Solar TErrestrial RElations Observatory)",
-      "source": "https://science.nasa.gov/mission/stereo/"
+      "source": "https://science.nasa.gov/mission/stereo/",
+      "launch_date": "Oct. 26, 2006",
+      "year": 2006
     },
     {
       "name": "STS-1",
-      "source": "https://www.nasa.gov/mission/sts-1/"
+      "source": "https://www.nasa.gov/mission/sts-1/",
+      "launch_date": "April 12, 1981",
+      "year": 1981
     },
     {
       "name": "STS-100",
-      "source": "https://www.nasa.gov/mission/sts-100/"
+      "source": "https://www.nasa.gov/mission/sts-100/",
+      "launch_date": "April 19, 2001",
+      "year": 2001
     },
     {
       "name": "STS-101",
-      "source": "https://www.nasa.gov/mission/sts-101/"
+      "source": "https://www.nasa.gov/mission/sts-101/",
+      "launch_date": "May 19, 2000",
+      "year": 2000
     },
     {
       "name": "STS-102",
-      "source": "https://www.nasa.gov/mission/sts-102/"
+      "source": "https://www.nasa.gov/mission/sts-102/",
+      "launch_date": "March 8, 2001",
+      "year": 2001
     },
     {
       "name": "STS-103",
-      "source": "https://www.nasa.gov/mission/sts-103/"
+      "source": "https://www.nasa.gov/mission/sts-103/",
+      "launch_date": "December 19, 1999",
+      "year": 1999
     },
     {
       "name": "STS-104",
-      "source": "https://www.nasa.gov/mission/sts-104/"
+      "source": "https://www.nasa.gov/mission/sts-104/",
+      "launch_date": "July 12, 2001",
+      "year": 2001
     },
     {
       "name": "STS-105",
-      "source": "https://www.nasa.gov/mission/sts-105/"
+      "source": "https://www.nasa.gov/mission/sts-105/",
+      "launch_date": "Aug. 10, 2001",
+      "year": 2001
     },
     {
       "name": "STS-106",
-      "source": "https://www.nasa.gov/mission/sts-106/"
+      "source": "https://www.nasa.gov/mission/sts-106/",
+      "launch_date": "Sept. 8, 2000",
+      "year": 2000
     },
     {
       "name": "STS-107",
-      "source": "https://www.nasa.gov/mission/sts-107/"
+      "source": "https://www.nasa.gov/mission/sts-107/",
+      "launch_date": "Jan. 16, 2003",
+      "year": 2003
     },
     {
       "name": "STS-108",
-      "source": "https://www.nasa.gov/mission/sts-108/"
+      "source": "https://www.nasa.gov/mission/sts-108/",
+      "launch_date": "Dec. 5, 2001",
+      "year": 2001
     },
     {
       "name": "STS-109",
-      "source": "https://www.nasa.gov/mission/sts-109/"
+      "source": "https://www.nasa.gov/mission/sts-109/",
+      "launch_date": "March 1, 2002",
+      "year": 2002
     },
     {
       "name": "STS-110",
-      "source": "https://www.nasa.gov/mission/sts-110/"
+      "source": "https://www.nasa.gov/mission/sts-110/",
+      "launch_date": "April 8, 2002",
+      "year": 2002
     },
     {
       "name": "STS-111",
-      "source": "https://www.nasa.gov/mission/sts-111/"
+      "source": "https://www.nasa.gov/mission/sts-111/",
+      "launch_date": "June 5, 2002",
+      "year": 2002
     },
     {
       "name": "STS-112",
-      "source": "https://www.nasa.gov/mission/sts-112/"
+      "source": "https://www.nasa.gov/mission/sts-112/",
+      "launch_date": "Oct. 7, 2002",
+      "year": 2002
     },
     {
       "name": "STS-113",
-      "source": "https://www.nasa.gov/mission/sts-113/"
+      "source": "https://www.nasa.gov/mission/sts-113/",
+      "launch_date": "Nov. 23, 2002",
+      "year": 2002
     },
     {
       "name": "STS-114",
-      "source": "https://www.nasa.gov/mission/sts-114/"
+      "source": "https://www.nasa.gov/mission/sts-114/",
+      "launch_date": "July 26, 2005",
+      "year": 2005
     },
     {
       "name": "STS-115",
-      "source": "https://www.nasa.gov/mission/sts-115/"
+      "source": "https://www.nasa.gov/mission/sts-115/",
+      "launch_date": "Sept. 9, 2006",
+      "year": 2006
     },
     {
       "name": "STS-116",
-      "source": "https://www.nasa.gov/mission/sts-116/"
+      "source": "https://www.nasa.gov/mission/sts-116/",
+      "launch_date": "Dec. 9, 2006",
+      "year": 2006
     },
     {
       "name": "STS-117",
-      "source": "https://www.nasa.gov/mission/sts-117/"
+      "source": "https://www.nasa.gov/mission/sts-117/",
+      "launch_date": "June 8, 2007",
+      "year": 2007
     },
     {
       "name": "STS-118",
-      "source": "https://www.nasa.gov/mission/space-shuttle-sts-118/"
+      "source": "https://www.nasa.gov/mission/space-shuttle-sts-118/",
+      "launch_date": "August 8, 2007",
+      "year": 2007
     },
     {
       "name": "STS-119",
-      "source": "https://www.nasa.gov/mission/sts-119/"
+      "source": "https://www.nasa.gov/mission/sts-119/",
+      "launch_date": "March 15, 2009",
+      "year": 2009
     },
     {
       "name": "STS-120",
-      "source": "https://www.nasa.gov/mission/sts-120/"
+      "source": "https://www.nasa.gov/mission/sts-120/",
+      "launch_date": "Oct. 23, 2007",
+      "year": 2007
     },
     {
       "name": "STS-121",
-      "source": "https://www.nasa.gov/mission/sts-121/"
+      "source": "https://www.nasa.gov/mission/sts-121/",
+      "launch_date": "July 4, 2006",
+      "year": 2006
     },
     {
       "name": "STS-122",
-      "source": "https://www.nasa.gov/mission/sts-122/"
+      "source": "https://www.nasa.gov/mission/sts-122/",
+      "launch_date": "Feb. 7, 2008",
+      "year": 2008
     },
     {
       "name": "STS-123",
-      "source": "https://www.nasa.gov/mission/sts-123/"
+      "source": "https://www.nasa.gov/mission/sts-123/",
+      "launch_date": "March 11, 2008",
+      "year": 2008
     },
     {
       "name": "STS-124",
-      "source": "https://www.nasa.gov/mission/sts-124/"
+      "source": "https://www.nasa.gov/mission/sts-124/",
+      "launch_date": "May 31, 2008",
+      "year": 2008
     },
     {
       "name": "STS-125",
-      "source": "https://www.nasa.gov/mission/sts-125/"
+      "source": "https://www.nasa.gov/mission/sts-125/",
+      "launch_date": "May 11, 2009",
+      "year": 2009
     },
     {
       "name": "STS-126",
-      "source": "https://www.nasa.gov/mission/sts-126/"
+      "source": "https://www.nasa.gov/mission/sts-126/",
+      "launch_date": "Nov. 14, 2008",
+      "year": 2008
     },
     {
       "name": "STS-127",
-      "source": "https://www.nasa.gov/mission/sts-127/"
+      "source": "https://www.nasa.gov/mission/sts-127/",
+      "launch_date": "July 15, 2009",
+      "year": 2009
     },
     {
       "name": "STS-128",
-      "source": "https://www.nasa.gov/mission/sts-128/"
+      "source": "https://www.nasa.gov/mission/sts-128/",
+      "launch_date": "Aug. 28, 2009",
+      "year": 2009
     },
     {
       "name": "STS-129",
-      "source": "https://www.nasa.gov/mission/sts-129/"
+      "source": "https://www.nasa.gov/mission/sts-129/",
+      "launch_date": "Nov. 16, 2009",
+      "year": 2009
     },
     {
       "name": "STS-130",
-      "source": "https://www.nasa.gov/mission/sts-130/"
+      "source": "https://www.nasa.gov/mission/sts-130/",
+      "launch_date": "Feb. 8, 2010",
+      "year": 2010
     },
     {
       "name": "STS-131",
-      "source": "https://www.nasa.gov/mission/sts-131/"
+      "source": "https://www.nasa.gov/mission/sts-131/",
+      "launch_date": "April 5, 2010",
+      "year": 2010
     },
     {
       "name": "STS-132",
-      "source": "https://www.nasa.gov/mission/sts-132/"
+      "source": "https://www.nasa.gov/mission/sts-132/",
+      "launch_date": "May 14, 2010",
+      "year": 2010
     },
     {
       "name": "STS-133",
-      "source": "https://www.nasa.gov/mission/sts-133/"
+      "source": "https://www.nasa.gov/mission/sts-133/",
+      "launch_date": "Feb. 24, 2011",
+      "year": 2011
     },
     {
       "name": "STS-134",
-      "source": "https://www.nasa.gov/mission/sts-134/"
+      "source": "https://www.nasa.gov/mission/sts-134/",
+      "launch_date": "May 16, 2011",
+      "year": 2011
     },
     {
       "name": "STS-135",
-      "source": "https://www.nasa.gov/mission/sts-135/"
+      "source": "https://www.nasa.gov/mission/sts-135/",
+      "launch_date": "July 8, 2011",
+      "year": 2011
     },
     {
       "name": "STS-2",
-      "source": "https://www.nasa.gov/mission/sts-2/"
+      "source": "https://www.nasa.gov/mission/sts-2/",
+      "launch_date": "Nov. 12, 1981",
+      "year": 1981
     },
     {
       "name": "STS-26",
-      "source": "https://www.nasa.gov/mission/sts-26/"
+      "source": "https://www.nasa.gov/mission/sts-26/",
+      "launch_date": "Sept. 29, 1988",
+      "year": 1988
     },
     {
       "name": "STS-27",
-      "source": "https://www.nasa.gov/mission/sts-27/"
+      "source": "https://www.nasa.gov/mission/sts-27/",
+      "launch_date": "Dec. 2, 1988",
+      "year": 1988
     },
     {
       "name": "STS-28",
-      "source": "https://www.nasa.gov/mission/sts-28/"
+      "source": "https://www.nasa.gov/mission/sts-28/",
+      "launch_date": "Aug. 8, 1989",
+      "year": 1989
     },
     {
       "name": "STS-29",
-      "source": "https://www.nasa.gov/mission/sts-29/"
+      "source": "https://www.nasa.gov/mission/sts-29/",
+      "launch_date": "March 13, 1989",
+      "year": 1989
     },
     {
       "name": "STS-3",
-      "source": "https://www.nasa.gov/mission/sts-3/"
+      "source": "https://www.nasa.gov/mission/sts-3/",
+      "launch_date": "March 22, 1982",
+      "year": 1982
     },
     {
       "name": "STS-30",
-      "source": "https://www.nasa.gov/mission/sts-30/"
+      "source": "https://www.nasa.gov/mission/sts-30/",
+      "launch_date": "May 4, 1989",
+      "year": 1989
     },
     {
       "name": "STS-31",
-      "source": "https://www.nasa.gov/mission/sts-31/"
+      "source": "https://www.nasa.gov/mission/sts-31/",
+      "launch_date": "April 24, 1990",
+      "year": 1990
     },
     {
       "name": "STS-32",
-      "source": "https://www.nasa.gov/mission/sts-32/"
+      "source": "https://www.nasa.gov/mission/sts-32/",
+      "launch_date": "Jan. 9, 1990",
+      "year": 1990
     },
     {
       "name": "STS-33",
-      "source": "https://www.nasa.gov/mission/sts-33/"
+      "source": "https://www.nasa.gov/mission/sts-33/",
+      "launch_date": "Nov. 22, 1989",
+      "year": 1989
     },
     {
       "name": "STS-34",
-      "source": "https://www.nasa.gov/mission/sts-34/"
+      "source": "https://www.nasa.gov/mission/sts-34/",
+      "launch_date": "Oct. 18, 1989",
+      "year": 1989
     },
     {
       "name": "STS-35",
-      "source": "https://www.nasa.gov/mission/sts-35/"
+      "source": "https://www.nasa.gov/mission/sts-35/",
+      "launch_date": "Dec. 2, 1990",
+      "year": 1990
     },
     {
       "name": "STS-36",
-      "source": "https://www.nasa.gov/mission/sts-36/"
+      "source": "https://www.nasa.gov/mission/sts-36/",
+      "launch_date": "Feb. 28, 1990",
+      "year": 1990
     },
     {
       "name": "STS-37",
-      "source": "https://www.nasa.gov/mission/sts-37/"
+      "source": "https://www.nasa.gov/mission/sts-37/",
+      "launch_date": "April 5, 1991",
+      "year": 1991
     },
     {
       "name": "STS-38",
-      "source": "https://www.nasa.gov/mission/sts-38/"
+      "source": "https://www.nasa.gov/mission/sts-38/",
+      "launch_date": "Nov. 15, 1990",
+      "year": 1990
     },
     {
       "name": "STS-39",
-      "source": "https://www.nasa.gov/mission/sts-39/"
+      "source": "https://www.nasa.gov/mission/sts-39/",
+      "launch_date": "April 28, 1991",
+      "year": 1991
     },
     {
       "name": "STS-4",
-      "source": "https://www.nasa.gov/mission/sts-4/"
+      "source": "https://www.nasa.gov/mission/sts-4/",
+      "launch_date": "June 27, 1982",
+      "year": 1982
     },
     {
       "name": "STS-40",
-      "source": "https://www.nasa.gov/mission/sts-40/"
+      "source": "https://www.nasa.gov/mission/sts-40/",
+      "launch_date": "June 5, 1991",
+      "year": 1991
     },
     {
       "name": "STS-41",
-      "source": "https://www.nasa.gov/mission/sts-41/"
+      "source": "https://www.nasa.gov/mission/sts-41/",
+      "launch_date": "Oct. 6, 1990",
+      "year": 1990
     },
     {
       "name": "STS-41B",
-      "source": "https://www.nasa.gov/mission/sts-41b/"
+      "source": "https://www.nasa.gov/mission/sts-41b/",
+      "launch_date": "February 3, 1984",
+      "year": 1984
     },
     {
       "name": "STS-41C",
-      "source": "https://www.nasa.gov/mission/sts-41c/"
+      "source": "https://www.nasa.gov/mission/sts-41c/",
+      "launch_date": "April 6, 1984",
+      "year": 1984
     },
     {
       "name": "STS-41D",
-      "source": "https://www.nasa.gov/mission/sts-41d/"
+      "source": "https://www.nasa.gov/mission/sts-41d/",
+      "launch_date": "August 30, 1984",
+      "year": 1984
     },
     {
       "name": "STS-41G",
-      "source": "https://www.nasa.gov/mission/sts-41g/"
+      "source": "https://www.nasa.gov/mission/sts-41g/",
+      "launch_date": "October 5, 1984",
+      "year": 1984
     },
     {
       "name": "STS-42",
-      "source": "https://www.nasa.gov/mission/sts-42/"
+      "source": "https://www.nasa.gov/mission/sts-42/",
+      "launch_date": "January 22, 1992",
+      "year": 1992
     },
     {
       "name": "STS-43",
-      "source": "https://www.nasa.gov/mission/sts-43/"
+      "source": "https://www.nasa.gov/mission/sts-43/",
+      "launch_date": "August 2, 1991",
+      "year": 1991
     },
     {
       "name": "STS-44",
-      "source": "https://www.nasa.gov/mission/sts-44/"
+      "source": "https://www.nasa.gov/mission/sts-44/",
+      "launch_date": "November 24, 1991",
+      "year": 1991
     },
     {
       "name": "STS-45",
-      "source": "https://www.nasa.gov/mission/sts-45/"
+      "source": "https://www.nasa.gov/mission/sts-45/",
+      "launch_date": "March 24, 1992",
+      "year": 1992
     },
     {
       "name": "STS-46",
-      "source": "https://www.nasa.gov/mission/sts-46/"
+      "source": "https://www.nasa.gov/mission/sts-46/",
+      "launch_date": "July 31, 1992",
+      "year": 1992
     },
     {
       "name": "STS-47",
-      "source": "https://www.nasa.gov/mission/sts-47/"
+      "source": "https://www.nasa.gov/mission/sts-47/",
+      "launch_date": "September 12, 1992",
+      "year": 1992
     },
     {
       "name": "STS-48",
-      "source": "https://www.nasa.gov/mission/sts-48/"
+      "source": "https://www.nasa.gov/mission/sts-48/",
+      "launch_date": "September 12, 1991",
+      "year": 1991
     },
     {
       "name": "STS-49",
-      "source": "https://www.nasa.gov/mission/sts-49/"
+      "source": "https://www.nasa.gov/mission/sts-49/",
+      "launch_date": "May 7, 1992",
+      "year": 1992
     },
     {
       "name": "STS-5",
-      "source": "https://www.nasa.gov/mission/sts-5/"
+      "source": "https://www.nasa.gov/mission/sts-5/",
+      "launch_date": "Nov. 11, 1982",
+      "year": 1982
     },
     {
       "name": "STS-50",
-      "source": "https://www.nasa.gov/mission/sts-50/"
+      "source": "https://www.nasa.gov/mission/sts-50/",
+      "launch_date": "June 25, 1992",
+      "year": 1992
     },
     {
       "name": "STS-51",
-      "source": "https://www.nasa.gov/mission/sts-51/"
+      "source": "https://www.nasa.gov/mission/sts-51/",
+      "launch_date": "September 12, 1993",
+      "year": 1993
     },
     {
       "name": "STS-51A",
-      "source": "https://www.nasa.gov/mission/sts-51a/"
+      "source": "https://www.nasa.gov/mission/sts-51a/",
+      "launch_date": "November 8, 1984",
+      "year": 1984
     },
     {
       "name": "STS-51B",
-      "source": "https://www.nasa.gov/mission/sts-51b/"
+      "source": "https://www.nasa.gov/mission/sts-51b/",
+      "launch_date": "April 29, 1985",
+      "year": 1985
     },
     {
       "name": "STS-51C",
-      "source": "https://www.nasa.gov/mission/sts-51c/"
+      "source": "https://www.nasa.gov/mission/sts-51c/",
+      "launch_date": "January 24, 1985",
+      "year": 1985
     },
     {
       "name": "STS-51D",
-      "source": "https://www.nasa.gov/mission/sts-51d/"
+      "source": "https://www.nasa.gov/mission/sts-51d/",
+      "launch_date": "April 12, 1985",
+      "year": 1985
     },
     {
       "name": "STS-51F",
-      "source": "https://www.nasa.gov/mission/sts-51f/"
+      "source": "https://www.nasa.gov/mission/sts-51f/",
+      "launch_date": "July 29, 1985",
+      "year": 1985
     },
     {
       "name": "STS-51G",
-      "source": "https://www.nasa.gov/mission/sts-51g/"
+      "source": "https://www.nasa.gov/mission/sts-51g/",
+      "launch_date": "June 17, 1985",
+      "year": 1985
     },
     {
       "name": "STS-51I",
-      "source": "https://www.nasa.gov/mission/sts-51i/"
+      "source": "https://www.nasa.gov/mission/sts-51i/",
+      "launch_date": "Aug. 27, 1985",
+      "year": 1985
     },
     {
       "name": "STS-51J",
-      "source": "https://www.nasa.gov/mission/sts-51j/"
+      "source": "https://www.nasa.gov/mission/sts-51j/",
+      "launch_date": "Oct. 3, 1985",
+      "year": 1985
     },
     {
       "name": "STS-51L",
-      "source": "https://www.nasa.gov/mission/sts-51l/"
+      "source": "https://www.nasa.gov/mission/sts-51l/",
+      "launch_date": "January 28, 1986",
+      "year": 1986
     },
     {
       "name": "STS-52",
-      "source": "https://www.nasa.gov/mission/sts-52/"
+      "source": "https://www.nasa.gov/mission/sts-52/",
+      "launch_date": "October 22, 1992",
+      "year": 1992
     },
     {
       "name": "STS-53",
-      "source": "https://www.nasa.gov/mission/sts-53/"
+      "source": "https://www.nasa.gov/mission/sts-53/",
+      "launch_date": "December 2, 1992",
+      "year": 1992
     },
     {
       "name": "STS-54",
-      "source": "https://www.nasa.gov/mission/sts-54/"
+      "source": "https://www.nasa.gov/mission/sts-54/",
+      "launch_date": "January 13, 1993",
+      "year": 1993
     },
     {
       "name": "STS-55",
-      "source": "https://www.nasa.gov/mission/sts-55/"
+      "source": "https://www.nasa.gov/mission/sts-55/",
+      "launch_date": "April 26, 1993",
+      "year": 1993
     },
     {
       "name": "STS-56",
-      "source": "https://www.nasa.gov/mission/sts-56/"
+      "source": "https://www.nasa.gov/mission/sts-56/",
+      "launch_date": "April 8, 1993",
+      "year": 1993
     },
     {
       "name": "STS-57",
-      "source": "https://www.nasa.gov/mission/sts-57/"
+      "source": "https://www.nasa.gov/mission/sts-57/",
+      "launch_date": "June 21, 1993",
+      "year": 1993
     },
     {
       "name": "STS-58",
-      "source": "https://www.nasa.gov/mission/sts-58/"
+      "source": "https://www.nasa.gov/mission/sts-58/",
+      "launch_date": "October 18, 1993",
+      "year": 1993
     },
     {
       "name": "STS-59",
-      "source": "https://www.nasa.gov/mission/sts-59/"
+      "source": "https://www.nasa.gov/mission/sts-59/",
+      "launch_date": "April 9, 1994",
+      "year": 1994
     },
     {
       "name": "STS-6",
-      "source": "https://www.nasa.gov/mission/sts-6/"
+      "source": "https://www.nasa.gov/mission/sts-6/",
+      "launch_date": "April 4, 1983",
+      "year": 1983
     },
     {
       "name": "STS-60",
@@ -2143,187 +3067,279 @@
     },
     {
       "name": "STS-61",
-      "source": "https://www.nasa.gov/mission/sts-61/"
+      "source": "https://www.nasa.gov/mission/sts-61/",
+      "launch_date": "December 2, 1993",
+      "year": 1993
     },
     {
       "name": "STS-61A",
-      "source": "https://www.nasa.gov/mission/sts-61a/"
+      "source": "https://www.nasa.gov/mission/sts-61a/",
+      "launch_date": "October 30, 1985",
+      "year": 1985
     },
     {
       "name": "STS-61B",
-      "source": "https://www.nasa.gov/mission/sts-61b/"
+      "source": "https://www.nasa.gov/mission/sts-61b/",
+      "launch_date": "November 26, 1985",
+      "year": 1985
     },
     {
       "name": "STS-61C",
-      "source": "https://www.nasa.gov/mission/sts-61c/"
+      "source": "https://www.nasa.gov/mission/sts-61c/",
+      "launch_date": "January 12, 1986",
+      "year": 1986
     },
     {
       "name": "STS-62",
-      "source": "https://www.nasa.gov/mission/sts-62/"
+      "source": "https://www.nasa.gov/mission/sts-62/",
+      "launch_date": "March 4, 1994",
+      "year": 1994
     },
     {
       "name": "STS-63",
-      "source": "https://www.nasa.gov/mission/sts-63/"
+      "source": "https://www.nasa.gov/mission/sts-63/",
+      "launch_date": "Feb. 3, 1995",
+      "year": 1995
     },
     {
       "name": "STS-64",
-      "source": "https://www.nasa.gov/mission/sts-64/"
+      "source": "https://www.nasa.gov/mission/sts-64/",
+      "launch_date": "September 9, 1994",
+      "year": 1994
     },
     {
       "name": "STS-65",
-      "source": "https://www.nasa.gov/mission/sts-65/"
+      "source": "https://www.nasa.gov/mission/sts-65/",
+      "launch_date": "July 8, 1994",
+      "year": 1994
     },
     {
       "name": "STS-66",
-      "source": "https://www.nasa.gov/mission/sts-66/"
+      "source": "https://www.nasa.gov/mission/sts-66/",
+      "launch_date": "November 3, 1994",
+      "year": 1994
     },
     {
       "name": "STS-67",
-      "source": "https://www.nasa.gov/mission/sts-67/"
+      "source": "https://www.nasa.gov/mission/sts-67/",
+      "launch_date": "March 2, 1995",
+      "year": 1995
     },
     {
       "name": "STS-68",
-      "source": "https://www.nasa.gov/mission/sts-68/"
+      "source": "https://www.nasa.gov/mission/sts-68/",
+      "launch_date": "September 30, 1994",
+      "year": 1994
     },
     {
       "name": "STS-69",
-      "source": "https://www.nasa.gov/mission/sts-69/"
+      "source": "https://www.nasa.gov/mission/sts-69/",
+      "launch_date": "September 7, 1995",
+      "year": 1995
     },
     {
       "name": "STS-7",
-      "source": "https://www.nasa.gov/mission/sts-7/"
+      "source": "https://www.nasa.gov/mission/sts-7/",
+      "launch_date": "June 18, 1983",
+      "year": 1983
     },
     {
       "name": "STS-70",
-      "source": "https://www.nasa.gov/mission/sts-70/"
+      "source": "https://www.nasa.gov/mission/sts-70/",
+      "launch_date": "July 13, 1995",
+      "year": 1995
     },
     {
       "name": "STS-71",
-      "source": "https://www.nasa.gov/mission/sts-71/"
+      "source": "https://www.nasa.gov/mission/sts-71/",
+      "launch_date": "June 27, 1995",
+      "year": 1995
     },
     {
       "name": "STS-72",
-      "source": "https://www.nasa.gov/mission/sts-72/"
+      "source": "https://www.nasa.gov/mission/sts-72/",
+      "launch_date": "January 11, 1996",
+      "year": 1996
     },
     {
       "name": "STS-73",
-      "source": "https://www.nasa.gov/mission/sts-73/"
+      "source": "https://www.nasa.gov/mission/sts-73/",
+      "launch_date": "October 20, 1995",
+      "year": 1995
     },
     {
       "name": "STS-74",
-      "source": "https://www.nasa.gov/mission/sts-74/"
+      "source": "https://www.nasa.gov/mission/sts-74/",
+      "launch_date": "Nov. 12, 1995",
+      "year": 1995
     },
     {
       "name": "STS-75",
-      "source": "https://www.nasa.gov/mission/sts-75/"
+      "source": "https://www.nasa.gov/mission/sts-75/",
+      "launch_date": "Feb. 22, 1996",
+      "year": 1996
     },
     {
       "name": "STS-76",
-      "source": "https://www.nasa.gov/mission/sts-76/"
+      "source": "https://www.nasa.gov/mission/sts-76/",
+      "launch_date": "Mar. 22, 1996",
+      "year": 1996
     },
     {
       "name": "STS-77",
-      "source": "https://www.nasa.gov/mission/sts-77/"
+      "source": "https://www.nasa.gov/mission/sts-77/",
+      "launch_date": "May 19, 1996",
+      "year": 1996
     },
     {
       "name": "STS-78",
-      "source": "https://www.nasa.gov/mission/sts-78/"
+      "source": "https://www.nasa.gov/mission/sts-78/",
+      "launch_date": "June 20, 1996",
+      "year": 1996
     },
     {
       "name": "STS-79",
-      "source": "https://www.nasa.gov/mission/sts-79/"
+      "source": "https://www.nasa.gov/mission/sts-79/",
+      "launch_date": "Sept. 16, 1996",
+      "year": 1996
     },
     {
       "name": "STS-8",
-      "source": "https://www.nasa.gov/mission/sts-8/"
+      "source": "https://www.nasa.gov/mission/sts-8/",
+      "launch_date": "Aug. 30, 1983",
+      "year": 1983
     },
     {
       "name": "STS-80",
-      "source": "https://www.nasa.gov/mission/sts-80/"
+      "source": "https://www.nasa.gov/mission/sts-80/",
+      "launch_date": "Nov. 19, 1996",
+      "year": 1996
     },
     {
       "name": "STS-81",
-      "source": "https://www.nasa.gov/mission/sts-81/"
+      "source": "https://www.nasa.gov/mission/sts-81/",
+      "launch_date": "Jan. 12, 1997",
+      "year": 1997
     },
     {
       "name": "STS-82",
-      "source": "https://www.nasa.gov/mission/sts-82/"
+      "source": "https://www.nasa.gov/mission/sts-82/",
+      "launch_date": "February 11, 1997",
+      "year": 1997
     },
     {
       "name": "STS-83",
-      "source": "https://www.nasa.gov/mission/sts-83/"
+      "source": "https://www.nasa.gov/mission/sts-83/",
+      "launch_date": "April 4, 1997",
+      "year": 1997
     },
     {
       "name": "STS-84",
-      "source": "https://www.nasa.gov/mission/sts-84/"
+      "source": "https://www.nasa.gov/mission/sts-84/",
+      "launch_date": "May 15, 1997",
+      "year": 1997
     },
     {
       "name": "STS-85",
-      "source": "https://www.nasa.gov/mission/sts-85/"
+      "source": "https://www.nasa.gov/mission/sts-85/",
+      "launch_date": "Aug. 7, 1997",
+      "year": 1997
     },
     {
       "name": "STS-86",
-      "source": "https://www.nasa.gov/mission/sts-86/"
+      "source": "https://www.nasa.gov/mission/sts-86/",
+      "launch_date": "September 25, 1997",
+      "year": 1997
     },
     {
       "name": "STS-87",
-      "source": "https://www.nasa.gov/mission/sts-87/"
+      "source": "https://www.nasa.gov/mission/sts-87/",
+      "launch_date": "Nov. 19, 1997",
+      "year": 1997
     },
     {
       "name": "STS-88",
-      "source": "https://www.nasa.gov/mission/sts-88/"
+      "source": "https://www.nasa.gov/mission/sts-88/",
+      "launch_date": "Dec. 4, 1998",
+      "year": 1998
     },
     {
       "name": "STS-89",
-      "source": "https://www.nasa.gov/mission/sts-89/"
+      "source": "https://www.nasa.gov/mission/sts-89/",
+      "launch_date": "January 22, 1998",
+      "year": 1998
     },
     {
       "name": "STS-9",
-      "source": "https://www.nasa.gov/mission/sts-9/"
+      "source": "https://www.nasa.gov/mission/sts-9/",
+      "launch_date": "Nov. 28, 1983",
+      "year": 1983
     },
     {
       "name": "STS-90",
-      "source": "https://www.nasa.gov/mission/sts-90/"
+      "source": "https://www.nasa.gov/mission/sts-90/",
+      "launch_date": "April 17, 1998",
+      "year": 1998
     },
     {
       "name": "STS-91",
-      "source": "https://www.nasa.gov/mission/sts-91/"
+      "source": "https://www.nasa.gov/mission/sts-91/",
+      "launch_date": "June 2, 1998",
+      "year": 1998
     },
     {
       "name": "STS-92",
-      "source": "https://www.nasa.gov/mission/sts-92/"
+      "source": "https://www.nasa.gov/mission/sts-92/",
+      "launch_date": "Oct. 11, 2000",
+      "year": 2000
     },
     {
       "name": "STS-93",
-      "source": "https://www.nasa.gov/mission/sts-93/"
+      "source": "https://www.nasa.gov/mission/sts-93/",
+      "launch_date": "July 23, 1999",
+      "year": 1999
     },
     {
       "name": "STS-94",
-      "source": "https://www.nasa.gov/mission/sts-94/"
+      "source": "https://www.nasa.gov/mission/sts-94/",
+      "launch_date": "July 1, 1997",
+      "year": 1997
     },
     {
       "name": "STS-95",
-      "source": "https://www.nasa.gov/mission/sts-95/"
+      "source": "https://www.nasa.gov/mission/sts-95/",
+      "launch_date": "Oct. 29, 1998",
+      "year": 1998
     },
     {
       "name": "STS-96",
-      "source": "https://www.nasa.gov/mission/sts-96/"
+      "source": "https://www.nasa.gov/mission/sts-96/",
+      "launch_date": "May 27, 1999",
+      "year": 1999
     },
     {
       "name": "STS-97",
-      "source": "https://www.nasa.gov/mission/sts-97/"
+      "source": "https://www.nasa.gov/mission/sts-97/",
+      "launch_date": "Nov. 30, 2000",
+      "year": 2000
     },
     {
       "name": "STS-98",
-      "source": "https://www.nasa.gov/mission/sts-98/"
+      "source": "https://www.nasa.gov/mission/sts-98/",
+      "launch_date": "Feb. 7, 2001",
+      "year": 2001
     },
     {
       "name": "STS-99",
-      "source": "https://www.nasa.gov/mission/sts-99/"
+      "source": "https://www.nasa.gov/mission/sts-99/",
+      "launch_date": "Feb. 11, 2000",
+      "year": 2000
     },
     {
       "name": "SUBSA (Solidification Using a Baffle in Sealed Ampoules)",
-      "source": "https://science.nasa.gov/mission/subsa/"
+      "source": "https://science.nasa.gov/mission/subsa/",
+      "launch_date": "June 5, 2002",
+      "year": 2002
     },
     {
       "name": "SunRISE (Sun Radio Interferometer Space Experiment)",
@@ -2331,59 +3347,87 @@
     },
     {
       "name": "Suomi NPP (Suomi National Polar-orbiting Partnership)",
-      "source": "https://science.nasa.gov/mission/suomi-npp/"
+      "source": "https://science.nasa.gov/mission/suomi-npp/",
+      "launch_date": "Oct. 28, 2011",
+      "year": 2011
     },
     {
       "name": "Surveyor 1",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-1/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-1/",
+      "launch_date": "May 30, 1966",
+      "year": 1966
     },
     {
       "name": "Surveyor 2",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-2/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-2/",
+      "launch_date": "Sept. 20, 1966",
+      "year": 1966
     },
     {
       "name": "Surveyor 3",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-3/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-3/",
+      "launch_date": "April 17, 1967",
+      "year": 1967
     },
     {
       "name": "Surveyor 4",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-4/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-4/",
+      "launch_date": "July 14, 1967",
+      "year": 1967
     },
     {
       "name": "Surveyor 5",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-5/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-5/",
+      "launch_date": "Sept. 8, 1967",
+      "year": 1967
     },
     {
       "name": "Surveyor 6",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-6/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-6/",
+      "launch_date": "Nov. 7, 1967",
+      "year": 1967
     },
     {
       "name": "Surveyor 7",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-7/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-7/",
+      "launch_date": "Jan. 7, 1968",
+      "year": 1968
     },
     {
       "name": "Surveyor Model 1",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-model-1/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-model-1/",
+      "launch_date": "Aug. 11, 1965",
+      "year": 1965
     },
     {
       "name": "Surveyor Model 2",
-      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-model-2/"
+      "source": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-model-2/",
+      "launch_date": "April 8, 1966",
+      "year": 1966
     },
     {
       "name": "Suzaku",
-      "source": "https://science.nasa.gov/mission/suzaku/"
+      "source": "https://science.nasa.gov/mission/suzaku/",
+      "launch_date": "July 10, 2005",
+      "year": 2005
     },
     {
       "name": "SWAS (Submillimeter Wave Astronomy Satellite)",
-      "source": "https://science.nasa.gov/mission/swas/"
+      "source": "https://science.nasa.gov/mission/swas/",
+      "launch_date": "Dec. 6, 1998",
+      "year": 1998
     },
     {
       "name": "Swift Space Observatory",
-      "source": "https://science.nasa.gov/mission/swift/"
+      "source": "https://science.nasa.gov/mission/swift/",
+      "launch_date": "Nov. 20, 2004",
+      "year": 2004
     },
     {
       "name": "SWOT (Surface Water and Ocean Topography)",
-      "source": "https://science.nasa.gov/mission/swot/"
+      "source": "https://science.nasa.gov/mission/swot/",
+      "launch_date": "Dec. 16, 2022",
+      "year": 2022
     },
     {
       "name": "TDRS (Tracking and Data Relay Satellite)",
@@ -2391,43 +3435,63 @@
     },
     {
       "name": "TEMPO (Tropospheric Emissions: Monitoring of POllution)",
-      "source": "https://science.nasa.gov/mission/tempo/"
+      "source": "https://science.nasa.gov/mission/tempo/",
+      "launch_date": "April 7, 2023",
+      "year": 2023
     },
     {
       "name": "Terra",
-      "source": "https://science.nasa.gov/mission/terra/"
+      "source": "https://science.nasa.gov/mission/terra/",
+      "launch_date": "Dec. 18, 1999",
+      "year": 1999
     },
     {
       "name": "Terriers (Tomographic Experiment Using Radiative Recombinative Ionospheric EUV and Radio Sources)",
-      "source": "https://science.nasa.gov/mission/terriers/"
+      "source": "https://science.nasa.gov/mission/terriers/",
+      "launch_date": "May 18, 1999",
+      "year": 1999
     },
     {
       "name": "TESS (Transiting Exoplanet Survey Satellite)",
-      "source": "https://science.nasa.gov/mission/tess/"
+      "source": "https://science.nasa.gov/mission/tess/",
+      "launch_date": "April 18, 2018",
+      "year": 2018
     },
     {
       "name": "THEMIS Science (Time History of Events and Macroscale Interactions During Substorms)",
-      "source": "https://science.nasa.gov/mission/themis/"
+      "source": "https://science.nasa.gov/mission/themis/",
+      "launch_date": "Feb. 17, 2007",
+      "year": 2007
     },
     {
       "name": "TIMED (Thermosphere Ionosphere Mesosphere Energetics and Dynamics)",
-      "source": "https://science.nasa.gov/mission/timed/"
+      "source": "https://science.nasa.gov/mission/timed/",
+      "launch_date": "Dec. 7, 2001",
+      "year": 2001
     },
     {
       "name": "TIROS (Television Infrared Observation Satellite Program)",
-      "source": "https://science.nasa.gov/mission/tiros/"
+      "source": "https://science.nasa.gov/mission/tiros/",
+      "launch_date": "April 1, 1960",
+      "year": 1960
     },
     {
       "name": "TOMS-EP (Total Ozone Mapping Spectrometer-Earth Probe)",
-      "source": "https://science.nasa.gov/mission/toms-ep/"
+      "source": "https://science.nasa.gov/mission/toms-ep/",
+      "launch_date": "July 2, 1996",
+      "year": 1996
     },
     {
       "name": "TOPEX/Poseidon",
-      "source": "https://science.nasa.gov/mission/topex-poseidon/"
+      "source": "https://science.nasa.gov/mission/topex-poseidon/",
+      "launch_date": "Aug. 10, 1992",
+      "year": 1992
     },
     {
       "name": "TRACE (Transition Region And Coronal Explorer)",
-      "source": "https://science.nasa.gov/mission/trace/"
+      "source": "https://science.nasa.gov/mission/trace/",
+      "launch_date": "April 2, 1998",
+      "year": 1998
     },
     {
       "name": "TRACER-AQ (Tracking Aerosol Convection Interactions Experiment-Air Quality)",
@@ -2439,19 +3503,27 @@
     },
     {
       "name": "TROPICS (Time-Resolved Observations of Precipitation structure and storm Intensity with a Constellation of Smallsats)",
-      "source": "https://science.nasa.gov/mission/tropics/"
+      "source": "https://science.nasa.gov/mission/tropics/",
+      "launch_date": "May 25, 2023",
+      "year": 2023
     },
     {
       "name": "TSIS-1 (Total and Spectral Solar Irradiance Sensor)",
-      "source": "https://science.nasa.gov/mission/tsis-1/"
+      "source": "https://science.nasa.gov/mission/tsis-1/",
+      "launch_date": "Dec. 15, 2017",
+      "year": 2017
     },
     {
       "name": "TSIS-2 (Total and Spectral Solar Irradiance Sensor)",
-      "source": "https://science.nasa.gov/mission/tsis-2/"
+      "source": "https://science.nasa.gov/mission/tsis-2/",
+      "launch_date": "2027",
+      "year": 2027
     },
     {
       "name": "TSS (Tethered Satellite System)",
-      "source": "https://science.nasa.gov/mission/tss/"
+      "source": "https://science.nasa.gov/mission/tss/",
+      "launch_date": "June 26, 1992",
+      "year": 1992
     },
     {
       "name": "TWINS (Two Wide-angle Imaging Neutral-atom Spectrometers)",
@@ -2463,19 +3535,27 @@
     },
     {
       "name": "Ulysses",
-      "source": "https://science.nasa.gov/mission/ulysses/"
+      "source": "https://science.nasa.gov/mission/ulysses/",
+      "launch_date": "Oct. 6, 1990",
+      "year": 1990
     },
     {
       "name": "Van Allen Probes",
-      "source": "https://science.nasa.gov/mission/van-allen-probes/"
+      "source": "https://science.nasa.gov/mission/van-allen-probes/",
+      "launch_date": "Aug. 30, 2012",
+      "year": 2012
     },
     {
       "name": "VEGGIE (Vegetable Production System)",
-      "source": "https://science.nasa.gov/mission/veggie/"
+      "source": "https://science.nasa.gov/mission/veggie/",
+      "launch_date": "April 18, 2014",
+      "year": 2014
     },
     {
       "name": "Venus Express",
-      "source": "https://science.nasa.gov/mission/venus-express/"
+      "source": "https://science.nasa.gov/mission/venus-express/",
+      "launch_date": "Nov. 9, 2005",
+      "year": 2005
     },
     {
       "name": "VERITAS (Venus Emissivity, Radio Science, InSAR, Topography and Spectroscopy)",
@@ -2483,11 +3563,15 @@
     },
     {
       "name": "Viking 1",
-      "source": "https://science.nasa.gov/mission/viking-1/"
+      "source": "https://science.nasa.gov/mission/viking-1/",
+      "launch_date": "Aug. 20, 1975",
+      "year": 1975
     },
     {
       "name": "Viking 2",
-      "source": "https://science.nasa.gov/mission/viking-2/"
+      "source": "https://science.nasa.gov/mission/viking-2/",
+      "launch_date": "Sept. 9, 1975",
+      "year": 1975
     },
     {
       "name": "VIPER (Volatiles Investigating Polar Exploration Rover)",
@@ -2495,39 +3579,57 @@
     },
     {
       "name": "Voyager 1",
-      "source": "https://science.nasa.gov/mission/voyager-1/"
+      "source": "https://science.nasa.gov/mission/voyager-1/",
+      "launch_date": "Sept. 5, 1977",
+      "year": 1977
     },
     {
       "name": "Voyager 2",
-      "source": "https://science.nasa.gov/mission/voyager-2/"
+      "source": "https://science.nasa.gov/mission/voyager-2/",
+      "launch_date": "Aug. 20, 1977",
+      "year": 1977
     },
     {
       "name": "Voyager Program",
-      "source": "https://www.nasa.gov/mission/voyager-1-and-2/"
+      "source": "https://www.nasa.gov/mission/voyager-1-and-2/",
+      "launch_date": "1977",
+      "year": 1977
     },
     {
       "name": "WetLab-2",
-      "source": "https://science.nasa.gov/mission/wetlab-2/"
+      "source": "https://science.nasa.gov/mission/wetlab-2/",
+      "launch_date": "April 8, 2016",
+      "year": 2016
     },
     {
       "name": "Wind",
-      "source": "https://science.nasa.gov/mission/wind/"
+      "source": "https://science.nasa.gov/mission/wind/",
+      "launch_date": "Nov. 1, 1994",
+      "year": 1994
     },
     {
       "name": "WIRE (Wide-field InfraRed Explorer)",
-      "source": "https://science.nasa.gov/mission/wire/"
+      "source": "https://science.nasa.gov/mission/wire/",
+      "launch_date": "March 5, 1999",
+      "year": 1999
     },
     {
       "name": "WISE/NEOWISE (Near-Earth Object Wide Field Infrared Survey Explorer)",
-      "source": "https://science.nasa.gov/mission/neowise/"
+      "source": "https://science.nasa.gov/mission/neowise/",
+      "launch_date": "Dec. 14, 2009",
+      "year": 2009
     },
     {
       "name": "WMAP (Wilkinson Microwave Anisotropy Probe)",
-      "source": "https://science.nasa.gov/mission/wmap/"
+      "source": "https://science.nasa.gov/mission/wmap/",
+      "launch_date": "June 30, 2001",
+      "year": 2001
     },
     {
       "name": "XMM-Newton (X-ray Multi-Mirror Mission Newton)",
-      "source": "https://science.nasa.gov/mission/xmm-newton/"
+      "source": "https://science.nasa.gov/mission/xmm-newton/",
+      "launch_date": "Dec. 10, 1999",
+      "year": 1999
     },
     {
       "name": "XRISM (X-ray Imaging and Spectroscopy Mission)",
@@ -2535,11 +3637,15 @@
     },
     {
       "name": "Yohkoh",
-      "source": "https://science.nasa.gov/mission/yohkoh/"
+      "source": "https://science.nasa.gov/mission/yohkoh/",
+      "launch_date": "Aug. 30, 1991",
+      "year": 1991
     },
     {
       "name": "ZBOT-NC (Zero Boil-Off Tank-Non-Condensable)",
-      "source": "https://science.nasa.gov/mission/zbot-nc/"
+      "source": "https://science.nasa.gov/mission/zbot-nc/",
+      "launch_date": "April 18, 2017",
+      "year": 2017
     }
   ]
 }
