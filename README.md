@@ -1,6 +1,6 @@
 # NASA Space Explorer
 
-A small, dependency-free Python website for browsing NASA missions. It combines a locally curated set of mission/trajectory details with NASA's A–Z mission index. The interface is static HTML/CSS/JavaScript, so it runs with Python locally and can also be hosted on GitHub Pages.
+A small, dependency-free Python website for browsing NASA missions. It combines a locally curated set of mission and trajectory details with NASA's A–Z mission index. Curated mission entries include launch date, mission period, launch vehicle, crew status, and source links. The catalog can be browsed by launch decade. The interface is static HTML/CSS/JavaScript, so it runs with Python locally and can also be hosted on GitHub Pages.
 
 ## Run locally
 
@@ -34,6 +34,7 @@ GitHub Pages serves static websites; it does not run Python applications or `app
 
 - [NASA A–Z missions](https://www.nasa.gov/a-to-z-of-nasa-missions/) — broad catalog index.
 - Each curated mission links to its NASA mission page. The launch-origin field has its own NASA source link.
+- Mission periods, launch vehicles, and crew status are currently populated for selected, researched missions. Other catalog entries show unavailable/not verified rather than inferred values.
 - Trajectories are simplified, labeled schematics and are not navigation/ephemeris data.
 - NASA's catalog includes more than spacecraft missions (for example experiments, programs, aircraft and expeditions). Entries without individually checked launch details show those fields as unavailable; do not infer that every catalog item launched from Earth.
 

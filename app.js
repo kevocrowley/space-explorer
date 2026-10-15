@@ -21,16 +21,40 @@ const CURATED = [
   {name:"Voyager 2",year:1977,target:"Uranus, Neptune / interstellar space",origin:"Cape Canaveral, Florida, USA",launch:"1977-08-20",status:"Active",source:"https://science.nasa.gov/mission/voyager/",launchSource:"https://science.nasa.gov/mission/voyager/",route:"Earth → Jupiter → Saturn → Uranus → Neptune",routeType:"outer"}
 ];
 
-const state = { missions: [], visible: 60, selected: null, target: "all", decade: 0 };
+// Mission-specific facts link back to the NASA page on each curated entry.
+// Unknown facts stay blank instead of being inferred from the catalog title.
+const VERIFIED_DETAILS = {
+  "Apollo 11": {period:"July 16–24, 1969", vehicle:"Saturn V; Apollo Command/Service Module and Lunar Module", crewed:true},
+  "Artemis I": {period:"November 16–December 11, 2022", vehicle:"Space Launch System (SLS) Block 1 and Orion spacecraft", crewed:false},
+  "Artemis II": {period:"April 1–11, 2026", vehicle:"Space Launch System (SLS) and Orion spacecraft", crewed:true},
+  "Cassini-Huygens": {period:"October 15, 1997–September 15, 2017", vehicle:"Titan IVB/Centaur launch vehicle; Cassini orbiter and Huygens probe", crewed:false},
+  "Curiosity (MSL)": {period:"November 26, 2011–present", vehicle:"Atlas V 541; Mars Science Laboratory rover and sky crane", crewed:false},
+  "DART": {period:"November 24, 2021–September 26, 2022", vehicle:"Falcon 9; Double Asteroid Redirection Test spacecraft", crewed:false},
+  "Dawn": {period:"September 27, 2007–November 1, 2018", vehicle:"Delta II 7925H; Dawn ion-propelled spacecraft", crewed:false},
+  "Europa Clipper": {period:"October 14, 2024–arrival at Jupiter planned for 2030", vehicle:"Falcon Heavy; Europa Clipper spacecraft", crewed:false},
+  "Hubble Space Telescope": {period:"April 24, 1990–present", vehicle:"Space Shuttle Discovery (STS-31) deployment; Hubble space telescope", crewed:false, crewNote:"Uncrewed observatory; astronauts visited on servicing missions"},
+  "James Webb Space Telescope": {period:"December 25, 2021–present", vehicle:"Ariane 5 ECA; James Webb Space Telescope", crewed:false},
+  "Juno": {period:"August 5, 2011–present", vehicle:"Atlas V 551; Juno spacecraft", crewed:false},
+  "Lunar Reconnaissance Orbiter": {period:"June 18, 2009–present", vehicle:"Atlas V 401; Lunar Reconnaissance Orbiter", crewed:false},
+  "Mars 2020 / Perseverance": {period:"July 30, 2020–present", vehicle:"Atlas V 541; Perseverance rover and Ingenuity helicopter", crewed:false},
+  "Mariner 2": {period:"August 27, 1962–January 3, 1963", vehicle:"Atlas-Agena B; Mariner 2 robotic flyby spacecraft", crewed:false},
+  "New Horizons": {period:"January 19, 2006–present", vehicle:"Atlas V 551 with Star 48B upper stage; New Horizons spacecraft", crewed:false},
+  "OSIRIS-REx": {period:"September 8, 2016–September 24, 2023 (sample return); OSIRIS-APEX extended mission ongoing", vehicle:"Atlas V 411; OSIRIS-REx spacecraft", crewed:false},
+  "Parker Solar Probe": {period:"August 12, 2018–present", vehicle:"Delta IV Heavy with Star 48BV upper stage; Parker Solar Probe", crewed:false},
+  "Pioneer 10": {period:"March 3, 1972–January 23, 2003 (last signal received)", vehicle:"Atlas-Centaur with TE364-4 upper stage; Pioneer 10 spacecraft", crewed:false},
+  "Voyager 1": {period:"September 5, 1977–present", vehicle:"Titan IIIE-Centaur; Voyager 1 spacecraft", crewed:false},
+  "Voyager 2": {period:"August 20, 1977–present", vehicle:"Titan IIIE-Centaur; Voyager 2 spacecraft", crewed:false}
+};
+
+const state = { missions: [], visible: 60, selected: null, decade: "all" };
 const $ = (selector) => document.querySelector(selector);
 const normalize = (value) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
 const safeText = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 
 function getMissionData(name) {
   const exact = CURATED.find((mission) => normalize(mission.name) === normalize(name));
-  if (exact) return exact;
-  const alias = CURATED.find((mission) => normalize(mission.name).includes(normalize(name)) || normalize(name).includes(normalize(mission.name)));
-  return alias || null;
+  if (exact) return {...exact, ...VERIFIED_DETAILS[exact.name]};
+  return null;
 }
 
 function classifyTarget(name) {
@@ -60,11 +84,9 @@ function currentMissions() {
     const data = getMissionData(mission.name) || mission;
     const text = `${mission.name} ${data.target || ""} ${data.origin || ""}`.toLowerCase();
     const matchesQuery = !query || text.includes(query);
-    const target = classifyTarget(mission.name);
-    const matchesTarget = state.target === "all" || (state.target === "Other" ? target === "Other" : state.target === "Jupiter" ? target === "Outer solar system" : target === state.target);
     const decade = data.year ? Math.floor(data.year / 10) * 10 : null;
-    const matchesDecade = state.decade === 0 || (decade !== null && decade === 1950 + state.decade * 10);
-    return matchesQuery && matchesTarget && matchesDecade;
+    const matchesDecade = state.decade === "all" || (state.decade === "unknown" ? decade === null : decade === Number(state.decade));
+    return matchesQuery && matchesDecade;
   });
 }
 
@@ -79,7 +101,7 @@ function renderList() {
     return `<button class="mission-card${isSelected ? " selected" : ""}" data-name="${safeText(mission.name)}"><span class="mission-year">${data.year || "NASA"}</span><span><span class="mission-name">${safeText(mission.name)}</span><span class="mission-target">${safeText(data.target || classifyTarget(mission.name))}</span></span><span class="status-dot ${statusClass}" title="${safeText(data.status || "Details unavailable")}"></span></button>`;
   }).join("") : `<div class="no-results">No missions match these filters.<br><a href="#" id="reset-filters">Reset filters</a></div>`;
   $("#results-count").textContent = `${filtered.length} ENTRIES`;
-  $("#results-label").textContent = state.target === "all" ? "ALL MISSIONS" : `${state.target.toUpperCase()} MISSIONS`;
+  $("#results-label").textContent = state.decade === "all" ? "ALL MISSIONS" : state.decade === "unknown" ? "DATE NOT LISTED" : `${state.decade}S MISSIONS`;
   $("#load-more").hidden = filtered.length <= state.visible;
   $("#mission-count").textContent = state.missions.length.toLocaleString();
   $("#launch-count").textContent = state.missions.filter((mission) => Boolean((getMissionData(mission.name) || {}).origin)).length.toLocaleString();
@@ -105,14 +127,17 @@ function selectMission(name) {
   const launchDate = data.launch ? new Date(`${data.launch}T12:00:00Z`).toLocaleDateString("en-US", {month:"short", day:"numeric", year:"numeric", timeZone:"UTC"}) : "Not available";
   const source = data.source ? `<a href="${safeText(data.source)}" target="_blank" rel="noreferrer">NASA mission page ↗</a>` : `<a href="https://www.nasa.gov/a-to-z-of-nasa-missions/" target="_blank" rel="noreferrer">NASA A–Z catalog ↗</a>`;
   const target = data.target || classifyTarget(data.name);
+  const missionPeriod = data.period || (data.launch ? data.status === "Active" || data.status === "En route" ? `Launched ${launchDate} · ongoing` : `Launched ${launchDate} · completed` : "Not listed in this explorer");
+  const vehicle = data.vehicle || "Not listed in this explorer";
+  const crewed = data.crewNote || (data.crewed === true ? "Crewed mission" : data.crewed === false ? "Uncrewed mission" : "Not verified");
   $("#detail-index").textContent = String(state.missions.findIndex((item) => item.name === name) + 1).padStart(2, "0");
-  $("#detail-content").innerHTML = `<div class="mission-detail"><div class="detail-kicker">${safeText(data.status || "NASA CATALOG ENTRY")}</div><h3>${safeText(data.name)}</h3><div class="detail-subtitle">DESTINATION · ${safeText(target)}</div>${routeSvg(data.routeType, data.name)}<div class="mission-facts"><div class="fact"><span class="fact-label">LAUNCH SITE</span><span class="fact-value">${origin}</span></div><div class="fact"><span class="fact-label">LAUNCH DATE</span><span class="fact-value">${safeText(launchDate)}</span></div><div class="fact"><span class="fact-label">MISSION SOURCE</span><span class="fact-value">${source}</span></div><div class="fact"><span class="fact-label">ROUTE STATUS</span><span class="fact-value">${data.routeType ? "Schematic route" : "Not documented"}</span></div></div>${data.route ? `<p class="mission-route"><span>FLIGHT PATH &nbsp;/&nbsp;</span> ${safeText(data.route)}</p>` : ""}</div>`;
+  $("#detail-content").innerHTML = `<div class="mission-detail"><div class="detail-kicker">${safeText(data.status || "NASA CATALOG ENTRY")}</div><h3>${safeText(data.name)}</h3><div class="detail-subtitle">DESTINATION · ${safeText(target)}</div>${routeSvg(data.routeType, data.name)}<div class="mission-facts"><div class="fact"><span class="fact-label">MISSION PERIOD</span><span class="fact-value">${safeText(missionPeriod)}</span></div><div class="fact"><span class="fact-label">LAUNCH DATE</span><span class="fact-value">${safeText(launchDate)}</span></div><div class="fact"><span class="fact-label">SPACE VEHICLE</span><span class="fact-value">${safeText(vehicle)}</span></div><div class="fact"><span class="fact-label">CREW</span><span class="fact-value">${safeText(crewed)}</span></div><div class="fact"><span class="fact-label">LAUNCH SITE</span><span class="fact-value">${origin}</span></div><div class="fact"><span class="fact-label">MISSION SOURCE</span><span class="fact-value">${source}</span></div></div>${data.route ? `<p class="mission-route"><span>FLIGHT PATH &nbsp;/&nbsp;</span> ${safeText(data.route)}</p>` : ""}</div>`;
 }
 
 function resetFilters() {
-  state.target = "all"; state.decade = 0; state.visible = 60;
-  $("#search").value = ""; $("#year-filter").value = "0"; $("#year-value").textContent = "All";
-  document.querySelectorAll(".filter-chip").forEach((button) => button.classList.toggle("active", button.dataset.target === "all"));
+  state.decade = "all"; state.visible = 60;
+  $("#search").value = "";
+  document.querySelectorAll(".filter-chip").forEach((button) => button.classList.toggle("active", button.dataset.decade === "all"));
   renderList();
 }
 
@@ -127,16 +152,11 @@ async function init() {
   state.missions = combinedMissions(catalog);
   renderList();
   $("#search").addEventListener("input", () => { state.visible = 60; renderList(); });
-  document.querySelectorAll(".filter-chip").forEach((button) => button.addEventListener("click", () => {
-    state.target = button.dataset.target; state.visible = 60;
-    document.querySelectorAll(".filter-chip").forEach((chip) => chip.classList.toggle("active", chip === button));
+  document.querySelectorAll("#decade-filters .filter-chip").forEach((button) => button.addEventListener("click", () => {
+    state.decade = button.dataset.decade; state.visible = 60;
+    document.querySelectorAll("#decade-filters .filter-chip").forEach((chip) => chip.classList.toggle("active", chip === button));
     renderList();
   }));
-  $("#year-filter").addEventListener("input", (event) => {
-    state.decade = Number(event.target.value); state.visible = 60;
-    $("#year-value").textContent = state.decade ? `${1950 + state.decade * 10}s` : "All";
-    renderList();
-  });
   $("#load-more").addEventListener("click", () => { state.visible += 60; renderList(); });
   document.addEventListener("keydown", (event) => {
     if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); $("#search").focus(); }
