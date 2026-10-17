@@ -42,7 +42,7 @@ GitHub Pages serves static websites; it does not run Python applications or `app
 - Each curated mission links to its NASA mission page. The launch-origin field has its own NASA source link.
 - NASA's A–Z index does not contain dates. Dates come from each mission page's facts block. Where NASA's page is wrong or missing a date, `mission_overrides.json` holds the correction with a `dateSource` link (Wikidata, ESA, DLR or NASA NTRS) and a short note shown in the detail panel. Future or TBD launches are grouped under **Upcoming**; entries with no applicable date (for example aeronautics research) are under **Date not listed**.
 - Routes (`routeType`) are assigned from NASA's Target/Type fields, with `mission_overrides.json` covering missions those fields don't describe (Lagrange points, heliocentric orbits, airborne campaigns, ground facilities).
-- Google Analytics uses measurement ID `G-GK8YG8H802`, matching the `move-explorer` site, and is loaded only on GitHub Pages after visitor consent. The footer provides a way to reopen cookie settings.
+- Google Analytics uses measurement ID `G-Z3JM0ZF2C0`, a data stream dedicated to this site, and is loaded only on GitHub Pages after visitor consent. The footer provides a way to reopen cookie settings.
 - Each mission's journey diagram (Earth → stops → destination) is an illustration built from its route type, curated route string and NASA milestones; it is not navigation/ephemeris data.
 - NASA's catalog includes more than spacecraft missions (for example experiments, programs, aircraft and expeditions). Entries without individually checked launch details show those fields as unavailable; do not infer that every catalog item launched from Earth.
 

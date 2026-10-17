@@ -53,7 +53,7 @@ const normalizeUrl = (value) => String(value || "").replace(/^https?:\/\//, "").
 const safeText = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 
 // Match move-explorer: don't load Google Analytics before consent or on local previews.
-const GA_ID = "G-GK8YG8H802";
+const GA_ID = "G-Z3JM0ZF2C0";
 const ANALYTICS_HOST = location.hostname.endsWith("github.io");
 let gaLoaded = false;
 
